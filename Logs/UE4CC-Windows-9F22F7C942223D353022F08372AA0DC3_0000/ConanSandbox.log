@@ -1,0 +1,432 @@
+﻿Log file open, 07/14/18 02:27:35
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogOnline:Warning: STEAM: Steam SDK 1.38a libraries not present at ../../../Engine/Binaries/ThirdParty/Steamworks/Steamv138a/Win64/ or failed to load!
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-98206.0
+LogInit: Engine Version: 4.15.3-98206+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-98206+ue415-dw-Stable-osl
+LogInit: Net CL: 98206
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 24 2018 17:27:21
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.07.13-19.27.36:015][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.13-19.27.36:015][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.13-19.27.36:085][  0]LogInit: Computer: DESKTOP-40S7AG1
+[2018.07.13-19.27.36:085][  0]LogInit: User: Beware
+[2018.07.13-19.27.36:085][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.07.13-19.27.36:085][  0]LogInit: High frequency timer resolution =2.533320 MHz
+[2018.07.13-19.27.36:085][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.13-19.27.36:085][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.13-19.27.36:085][  0]LogMemory: Process Physical Memory: 456.19 MB used, 456.19 MB peak
+[2018.07.13-19.27.36:085][  0]LogMemory: Process Virtual Memory: 482.02 MB used, 482.02 MB peak
+[2018.07.13-19.27.36:085][  0]LogMemory: Physical Memory: 3599.06 MB used,  4454.54 MB free, 8053.60 MB total
+[2018.07.13-19.27.36:085][  0]LogMemory: Virtual Memory: 4986.58 MB used,  4454.54 MB free, 134217728.00 MB total
+[2018.07.13-19.27.36:356][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.07.13-19.27.36:738][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.13-19.27.37:434][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2018.07.13-19.27.37:434][  0]LogD3D11RHI:       2009/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.13-19.27.37:444][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.07.13-19.27.37:444][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.13-19.27.37:451][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.13-19.27.37:451][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.13-19.27.37:451][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.13-19.27.37:466][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.13-19.27.37:467][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.13-19.27.37:467][  0]LogWindows: EnumDisplayDevices:
+[2018.07.13-19.27.37:467][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.07.13-19.27.37:468][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.13-19.27.37:468][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.13-19.27.37:468][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.13-19.27.37:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2018.07.13-19.27.37:468][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.13-19.27.37:468][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.13-19.27.37:468][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.13-19.27.37:636][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.07.13-19.27.37:640][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.13-19.27.37:663][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.13-19.27.37:798][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.13-19.27.37:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-19.27.37:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-19.27.38:433][  0]LogAssetRegistry: FAssetRegistry took 0.5439 seconds to start up
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld revision: 98222
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld snapshot: 17925
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.07.13-19.27.38:615][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.07.13-19.27.38:616][  0]Dreamworld:Display: Platform: WindowsNoEditor
+[2018.07.13-19.27.38:616][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.07.13-19.27.38:639][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.008756 seconds
+[2018.07.13-19.27.38:642][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.13-19.27.38:644][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.07.13-19.27.38:689][  0]LogContentStreaming: Texture pool size is 500.00 MB
+[2018.07.13-19.27.38:741][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.07.13-19.27.38:826][  0]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3346072323
+[2018.07.13-19.27.38:826][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.13-19.27.38:861][  0]LogMoviePlayer: Initializing movie player
+[2018.07.13-19.27.39:405][  0]UserSettings:Display: User's IP Country Code is TH
+[2018.07.13-19.27.39:410][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2018.07.13-19.27.39:411][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2018.07.13-19.27.39:435][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.07.13-19.27.39:447][  0]LogUObjectArray: 42382 objects as part of root set at end of initial load.
+[2018.07.13-19.27.39:447][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2018.07.13-19.27.39:447][  0]LogUObjectAllocator: 8309704 out of 8388608 bytes used by permanent object pool.
+[2018.07.13-19.27.39:447][  0]LogUObjectArray: CloseDisregardForGC: 42382/42382 objects in disregard for GC pool
+[2018.07.13-19.27.39:459][  0]LogRcon:Display: Rcon disabled.
+[2018.07.13-19.27.39:459][  0]LogModManager: Searching for mod/dlc controllers.
+[2018.07.13-19.27.40:277][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanSword_DLC.pak added to pak precacher.
+[2018.07.13-19.27.40:277][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Items.pak added to pak precacher.
+[2018.07.13-19.27.40:277][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanArmor_DLC.pak added to pak precacher.
+[2018.07.13-19.27.40:277][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2018.07.13-19.27.40:277][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8001, overwriting.
+[2018.07.13-19.27.40:277][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8002, overwriting.
+[2018.07.13-19.27.40:277][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8003, overwriting.
+[2018.07.13-19.27.40:278][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8004, overwriting.
+[2018.07.13-19.27.40:278][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8005, overwriting.
+[2018.07.13-19.27.40:279][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8006, overwriting.
+[2018.07.13-19.27.40:279][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8007, overwriting.
+[2018.07.13-19.27.40:279][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8008, overwriting.
+[2018.07.13-19.27.40:280][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8009, overwriting.
+[2018.07.13-19.27.40:280][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8010, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_ItemTable.ConanArmor_DLC_ItemTable
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8001, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8002, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8003, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8004, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8005, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8006, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8007, overwriting.
+[2018.07.13-19.27.40:281][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8008, overwriting.
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8009, overwriting.
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8010, overwriting.
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_RecipeTable.ConanArmor_DLC_RecipeTable
+[2018.07.13-19.27.40:282][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8000, overwriting.
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8011, overwriting.
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_ItemTable.ConanSword_DLC_ItemTable
+[2018.07.13-19.27.40:282][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8000, overwriting.
+[2018.07.13-19.27.40:283][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8011, overwriting.
+[2018.07.13-19.27.40:284][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_RecipeTable.ConanSword_DLC_RecipeTable
+[2018.07.13-19.27.40:284][  0]LogModManager: Done searching for mod controllers.
+[2018.07.13-19.27.40:284][  0]LogEngine: Initializing Engine...
+[2018.07.13-19.27.40:306][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2018.07.13-19.27.40:306][  0]LogStreaming:Error: Found 0 dependent packages...
+[2018.07.13-19.27.40:306][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2018.07.13-19.27.40:505][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Slate.pak added to pak precacher.
+[2018.07.13-19.27.40:505][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.13-19.27.40:571][  0]LogInit: FAudioDevice initialized.
+[2018.07.13-19.27.40:589][  0]LogInit: Texture streaming: Enabled
+[2018.07.13-19.27.41:489][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Systems.pak added to pak precacher.
+[2018.07.13-19.27.41:489][  0]LogAsyncObjectFinder:Error: FAsyncObjectFinder: Asset "/Game/UI/UIModuleTable.UIModuleTable" (used by "/Engine/Transient.GUIModuleController_0") should have been loaded at this point! Please fix! Note: Will try to syncload the asset to continue execution.
+[2018.07.13-19.27.41:546][  0]LogInit:Display: Game Engine Initialized.
+[2018.07.13-19.27.41:546][  0]LogInit:Display: Starting Game.
+[2018.07.13-19.27.41:555][  0]LogNet: Browse: /Game/Maps/Startup?Name=Player
+[2018.07.13-19.27.41:556][  0]LogLoad: LoadMap: /Game/Maps/Startup?Name=Player
+[2018.07.13-19.27.44:629][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Maps.pak added to pak precacher.
+[2018.07.13-19.27.44:629][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Tools.pak added to pak precacher.
+[2018.07.13-19.27.44:629][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Characters.pak added to pak precacher.
+[2018.07.13-19.27.44:723][  0]LogAIModule: Creating AISystem for world Startup
+[2018.07.13-19.27.44:723][  0]LogLoad: Game class is 'StartupGameMode_C'
+[2018.07.13-19.27.44:725][  0]LogLevelActorContainer: Created LevelActorCluster (45) for /Game/Maps/Startup.Startup:PersistentLevel with 2 objects, 1 referenced clusters and 2 mutable objects.
+[2018.07.13-19.27.44:725][  0]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 0) at 2018.07.14-02.27.44
+[2018.07.13-19.27.44:726][  0]LogWorld: Bringing up level for play took: 0.001314
+[2018.07.13-19.27.44:735][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.13-19.27.44:735][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.13-19.27.44:735][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.13-19.27.44:735][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2018.07.13-19.27.45:011][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.27.45:011][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.27.45:012][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.27.45:013][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.27.45:014][  0]LogUMG:Display: Widget Class W_GamepadHelpOverlay_C - Loaded Fast Template.
+[2018.07.13-19.27.45:014][  0]UnitTest:Display: ClientState: 1
+[2018.07.13-19.27.45:015][  0]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.13-19.27.45:015][  0]LogUMG:Display: Widget Class W_MainMenu_MainMenu_C - Loaded Fast Template.
+[2018.07.13-19.27.45:019][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.13-19.27.45:039][  0]Network:Display: Presence: "" => "PS_MainMenu".
+[2018.07.13-19.27.45:040][  0]LogUMG:Display: Widget Class W_MouseBlockWindow_C - Loaded Fast Template.
+[2018.07.13-19.27.45:040][  0]LogUMG:Display: Widget Class W_GamepadHelpEntry_C - Loaded Fast Template.
+[2018.07.13-19.27.45:040][  0]LogUMG:Display: Widget Class W_ActionTutorial_C - Loaded Fast Template.
+[2018.07.13-19.27.45:044][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2018.07.13-19.27.45:044][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1929): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", false)
+[2018.07.13-19.27.45:045][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.13-19.27.45:045][  0]LogLoad: Took 3.488461 seconds to LoadMap(/Game/Maps/Startup)
+[2018.07.13-19.27.45:248][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.030885 seconds
+[2018.07.13-19.27.45:248][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Effects.pak added to pak precacher.
+[2018.07.13-19.27.45:248][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.07.13-19.27.45:288][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WeatherEffects.pak added to pak precacher.
+[2018.07.13-19.27.45:288][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Environment.pak added to pak precacher.
+[2018.07.13-19.27.45:310][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Base.pak added to pak precacher.
+[2018.07.13-19.27.49:900][  0]LogLoad: (Engine Initialization) Total time: 17.46 seconds
+[2018.07.13-19.27.49:900][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.13-19.27.49:940][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.13-19.27.49:941][  0]LogCameraPhotography: Photography camera created.  Provider=NVIDIA Ansel, Supported=1
+[2018.07.13-19.27.49:947][  0]LogUMG:Display: Widget Class W_SubtitleRenderer_C - Loaded Fast Template.
+[2018.07.13-19.27.49:954][  0]LogSlate: Took 0.003534 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Bold_0_Default.ufont' (66K)
+[2018.07.13-19.27.49:959][  0]LogSlate: Took 0.003230 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Regular_0_Default.ufont' (106K)
+[2018.07.13-19.27.49:961][  0]LogStreaming:Display: Suspending async loading (1)
+[2018.07.13-19.27.50:449][  0]LogStreaming:Display: Resuming async loading (0)
+[2018.07.13-19.27.50:461][  1]LogUMG:Display: Widget Class W_PatchNotesEntryView_C - Loaded Fast Template.
+[2018.07.13-19.27.50:579][  1]LogRenderer: Reallocating scene render targets to support 720x540 NumSamples 1 (Frame:2).
+[2018.07.13-19.27.50:939][  1]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.13-19.27.50:945][  1]Network:Display: OnServerVoiceChatReplicated: Changed to Disabled
+[2018.07.13-19.27.50:948][  1]LogUMG:Display: Widget Class W_FIFOWindow_C - Loaded Fast Template.
+[2018.07.13-19.27.50:954][  1]LogSlate: Took 0.002106 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Bold.ufont' (60K)
+[2018.07.13-19.27.50:957][  1]LogSlate: Took 0.001953 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Normal.ufont' (62K)
+[2018.07.13-19.27.52:969][ 61]LogUMG:Display: Widget Class W_MessageBox_C - Loaded Fast Template.
+[2018.07.13-19.27.52:971][ 61]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.27.52:971][ 61]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.27.52:971][ 61]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.27.52:971][ 61]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.27.52:972][ 61]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2018.07.13-19.27.52:977][ 61]LogSlate: Took 0.003566 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Normal.ufont' (299K)
+[2018.07.13-19.27.52:979][ 61]LogUMG:Display: Widget Class W_ServerList_C - Loaded Fast Template.
+[2018.07.13-19.27.53:032][ 61]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2018.07.13-19.27.53:032][ 61]LogUMG:Display: Widget Class W_DropDownText_C - Loaded Fast Template.
+[2018.07.13-19.27.53:043][ 61]LogSlate: Took 0.003594 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans-Italic_0_Default.ufont' (273K)
+[2018.07.13-19.27.53:047][ 61]LogSlate: Took 0.003303 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Alte_Haas_Grotesk_Regular_0_Default.ufont' (141K)
+[2018.07.13-19.27.54:176][ 92]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.27.54:343][ 97]LogInit: WinSock: I am DESKTOP-40S7AG1 (192.168.1.34:0)
+[2018.07.13-19.28.11:198][602]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.28.11:198][602]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.28.11:198][602]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.07.13-19.28.11:198][602]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.07.13-19.28.11:198][602]LogNet: Browse: 25.49.160.70//Game/Maps/Startup?Name=Player
+[2018.07.13-19.28.11:199][602]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.13-19.28.11:199][602]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.13-19.28.11:199][602]LogNet: Game client on port 7777, rate 15000
+[2018.07.13-19.28.11:200][602]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3374031125
+[2018.07.13-19.28.11:200][602]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.13-19.28.11:200][602]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 25.49.160.70:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.13-19.28.11:265][604]LogHandshake: SendChallengeResponse. Timestamp: 9972.147461, Cookie: 054240082181002085175173228119217068067047181106135051226199
+[2018.07.13-19.28.11:431][609]ConanSandbox:Display: Server settings received
+[2018.07.13-19.28.11:431][609]LogNet: Welcomed by server (Level: /Game/Maps/ConanSandbox/ConanSandbox, Game: /Game/Systems/BaseGameMode.BaseGameMode_C)
+[2018.07.13-19.28.11:432][609]UnitTest:Display: ClientState: 1
+[2018.07.13-19.28.12:280][609]LogStreaming:Warning: Took 252.78ms to ProcessLoadedPackages
+[2018.07.13-19.28.12:302][609]UnitTest:Display: ClientState: 2
+[2018.07.13-19.28.12:302][609]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.13-19.28.12:302][609]LogUMG:Display: Widget Class W_IngameLoadingScreen_C - Loaded Fast Template.
+[2018.07.13-19.28.12:361][609]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.28.12:362][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2018.07.13-19.28.12:362][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1884): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2018.07.13-19.28.12:362][609]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2018.07.13-19.28.12:362][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1449): UConanGameInstance::PreLoadMap_Callback: StartLoadingScreen
+[2018.07.13-19.28.12:411][609]LogUMG:Display: Widget Class W_HotkeyIcon_C - Loaded Fast Template.
+[2018.07.13-19.28.12:434][609]LogSlate: Took 0.003967 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Bold.ufont' (304K)
+[2018.07.13-19.28.12:560][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:560][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:560][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:560][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:560][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 3) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:713][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:713][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:713][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:713][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:713][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 3) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:806][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:806][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:806][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:806][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:820][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:820][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:820][609]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.28.12:897][609]LogLoad: LoadMap: 25.49.160.70//Game/Maps/ConanSandbox/ConanSandbox?Name=Player?game=/Game/Systems/BaseGameMode.BaseGameMode_C
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/RedDesertPack.pak added to pak precacher.
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/NaturePackage.pak added to pak precacher.
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Marketplace.pak added to pak precacher.
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Chameleon.pak added to pak precacher.
+[2018.07.13-19.28.13:907][609]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2018.07.13-19.28.13:907][609]LogStreaming:Error: Found 1 dependent packages...
+[2018.07.13-19.28.13:907][609]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ProceduralNaturePack.pak added to pak precacher.
+[2018.07.13-19.28.13:907][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/OceanFloor.pak added to pak precacher.
+[2018.07.13-19.28.14:252][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Master_AnimBP.pak added to pak precacher.
+[2018.07.13-19.28.14:573][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Elemental.pak added to pak precacher.
+[2018.07.13-19.28.19:422][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Cinematics.pak added to pak precacher.
+[2018.07.13-19.28.19:422][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WastelandRocks.pak added to pak precacher.
+[2018.07.13-19.28.19:422][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/100+crosshairspack.pak added to pak precacher.
+[2018.07.13-19.28.24:320][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Dev.pak added to pak precacher.
+[2018.07.13-19.28.39:543][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/FXVillesBloodVFXPack.pak added to pak precacher.
+[2018.07.13-19.28.39:543][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/TextureMax.pak added to pak precacher.
+[2018.07.13-19.28.39:766][609]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Developers.pak added to pak precacher.
+[2018.07.13-19.28.47:925][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(443): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2018.07.13-19.28.47:925][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(451): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2018.07.13-19.28.47:925][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1884): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2018.07.13-19.28.47:981][609]LogLevelActorContainer: Created LevelActorCluster (678) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 256 objects, 1 referenced clusters and 11 mutable objects.
+[2018.07.13-19.28.47:982][609]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2018.07.14-02.28.47
+[2018.07.13-19.28.47:985][609]LogWorld: Bringing up level for play took: 0.056715
+[2018.07.13-19.28.47:985][609]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1457): UConanGameInstance::PostLoadMap_Callback: StopLoadingScreen, m_ClientState = 2
+[2018.07.13-19.28.47:986][609]LogLoad: Took 35.089505 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2018.07.13-19.28.47:987][609]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.03, Realtime: 36.56. IpNetDriver_0
+[2018.07.13-19.28.48:542][610]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 37.11, Realtime: 0.55. IpNetDriver_0
+[2018.07.13-19.28.48:555][610]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.48:555][610]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(5924): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=0
+[2018.07.13-19.28.48:557][610]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(5924): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=2
+[2018.07.13-19.28.48:686][610]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_ServerSettings_C_0.SceneComponent_0'
+[2018.07.13-19.28.48:694][610]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.48:694][610]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2018.07.13-19.28.48:707][610]Main:Display: Registered service actor "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookup.BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2018.07.13-19.28.48:733][610]LogUMG:Display: Widget Class W_EnemyHealthbar_C - Loaded Fast Template.
+[2018.07.13-19.28.48:737][610]LogUMG:Display: Widget Class W_TargetLockHighlight_C - Loaded Fast Template.
+[2018.07.13-19.28.48:737][610]LogScriptCore:Warning: Script Msg: CacheAchievements or CacheAchievementDescriptions - Invalid player state
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.13-19.28.48:738][610]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:739][610]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:739][610]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.28.48:739][610]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.13-19.28.48:739][610]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.13-19.28.48:739][610]LogUMG:Display: Widget Class W_FIFOWindow_C - Loaded Fast Template.
+[2018.07.13-19.28.48:739][610]LogUMG:Display: Widget Class W_SubtitleRenderer_C - Loaded Fast Template.
+[2018.07.13-19.28.48:739][610]PIE:Warning: Warning The widget 'W_GamepadHelpOverlay_C' was already added to the screen.
+[2018.07.13-19.28.48:740][610]Audio:Display: [ConanSandbox_C_0] Loading environment audio level: Client or listen server.
+[2018.07.13-19.28.48:740][610]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/ConanSandbox_SOUND 1 1 0
+[2018.07.13-19.28.48:740][610]Audio:Display: [BP_SoundStage_C_0] Sound Stage on line
+[2018.07.13-19.28.48:741][610]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_SandStorm.SandstormMesh: Material index 1 is invalid.
+[2018.07.13-19.28.48:792][610]Network:Display: Network usage last 16908380.00 seconds
+[2018.07.13-19.28.48:792][610]Network:Display: out bytes min;out bytes max;out bytes avg;out bytes total;out parts min;out parts max;out parts avg;out parts total;in bytes min;in bytes max;in bytes avg;in bytes total;actor
+[2018.07.13-19.28.48:792][610]Network:Display: OnServerVoiceChatReplicated: Changed to Enabled
+[2018.07.13-19.28.48:795][610]Performance:Display: [BP_ConanWorldComposition_C_0] World Composition Update:
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [ADDED]
++STREAMING POSITION: X=-308288.000 Y=314140.000 Z=-20870.000 (from extra streaming position) [ADDED]
+
+[2018.07.13-19.28.48:800][610]LogUMG:Display: Widget Class W_FloatingName_C - Loaded Fast Template.
+[2018.07.13-19.28.50:520][610]Network:Display: Presence: "PS_MainMenu" => "PS_Wasteland".
+[2018.07.13-19.28.50:522][610]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  
+[2018.07.13-19.28.50:523][610]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  
+[2018.07.13-19.28.50:523][610]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  Nuite
+[2018.07.13-19.28.50:524][610]CODEConanGameState:Warning: No guild found with id = 12. Number of registered guilds = 1.
+[2018.07.13-19.28.50:532][610]LogSlate: Took 0.001281 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Bold.ufont' (304K)
+[2018.07.13-19.28.50:618][611]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/DataLayer requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/DataLayer
+[2018.07.13-19.28.50:618][611]LogStreaming:Error: Found 1 dependent packages...
+[2018.07.13-19.28.50:618][611]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y0
+[2018.07.13-19.28.50:716][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function StartSandstorm will not be processed.
+[2018.07.13-19.28.50:716][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function ServerRequestInitialMarkerUpdate will not be processed.
+[2018.07.13-19.28.50:716][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function ServerRequestInitialUpdate will not be processed.
+[2018.07.13-19.28.50:721][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:721][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:721][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:722][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:722][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:727][611]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ForestMushroomsPack.pak added to pak precacher.
+[2018.07.13-19.28.50:727][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:727][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:727][611]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.28.50:744][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function StartSandstorm will not be processed.
+[2018.07.13-19.28.50:745][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function ServerRequestInitialMarkerUpdate will not be processed.
+[2018.07.13-19.28.50:745][611]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function ServerRequestInitialUpdate will not be processed.
+[2018.07.13-19.28.50:754][611]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Stumps_and_logs.pak added to pak precacher.
+[2018.07.13-19.28.50:754][611]Network:Warning: Data: 0 (client) received 2165.0 bytes per second > 1024 (sample window size: 2.00 seconds)
+[2018.07.13-19.28.50:760][611]Effects:Display: [BP_CloudParticleSpawner BasePlayerChar_C_0] Actual max particle count: 49
+[2018.07.13-19.28.50:761][611]Performance:Display: [BP_ConanWorldComposition_C_0] World Composition Update:
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [REMOVED]
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [REMOVED]
+-STREAMING POSITION: X=-308288.000 Y=314140.000 Z=-20870.000 (from extra streaming position) [REMOVED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.805 Y=116709.898 Z=-13269.556 (from extra streaming position) [ADDED]
+
+[2018.07.13-19.28.50:762][611]CODEConanGameState:Warning: No guild found with id = 12. Number of registered guilds = 1.
+[2018.07.13-19.28.50:762][611]CODEConanGameState:Warning: No guild found with id = 12. Number of registered guilds = 1.
+[2018.07.13-19.28.50:765][612]Streaming:Display: Waiting for streaming completed (game, unload)
+[2018.07.13-19.28.56:140][612]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ExampleContent.pak added to pak precacher.
+[2018.07.13-19.28.57:400][612]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Shaders.pak added to pak precacher.
+[2018.07.13-19.29.17:353][612]LogEngine: BlockTillLevelStreamingCompleted: 1
+[2018.07.13-19.29.17:355][612]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.29.17:356][612]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.29.17:356][612]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.29.17:356][612]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.29.17:356][612]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.29.17:497][613]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 26.73, Realtime: 26.73. IpNetDriver_0
+[2018.07.13-19.29.17:538][613]Streaming:Display: Waiting for streaming completed (game, load)
+[2018.07.13-19.29.22:699][613]LogLevelActorContainer: Created LevelActorCluster (1101) for /Game/Maps/ConanSandbox/ConanSandbox_SOUND.ConanSandbox_SOUND:PersistentLevel with 12 objects, 1 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.22:710][613]LogLevelActorContainer: Created LevelActorCluster (1102) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 3 referenced clusters and 9 mutable objects.
+[2018.07.13-19.29.23:786][613]LogLevelActorContainer: Created LevelActorCluster (1108) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y2.Art_Caves_x4_y2:PersistentLevel with 1982 objects, 470 referenced clusters and 1780 mutable objects.
+[2018.07.13-19.29.23:786][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y2 took (less than) 60.11 ms
+[2018.07.13-19.29.23:789][613]LogLevelActorContainer: Created LevelActorCluster (1109) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y2LOD/Heightmap_x3_y2_LOD1.Heightmap_x3_y2_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.23:789][613]LogLevelActorContainer: Created LevelActorCluster (1110) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y5LOD/Heightmap_x3_y5_LOD1.Heightmap_x3_y5_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.25:936][613]LogLevelActorContainer: Created LevelActorCluster (1113) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y2.Heightmap_x4_y2:PersistentLevel with 3271 objects, 541 referenced clusters and 2022 mutable objects.
+[2018.07.13-19.29.25:936][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y2 took (less than) 74.51 ms
+[2018.07.13-19.29.27:852][613]LogLevelActorContainer: Created LevelActorCluster (1117) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y3.Heightmap_x4_y3:PersistentLevel with 2673 objects, 463 referenced clusters and 1988 mutable objects.
+[2018.07.13-19.29.27:856][613]LogLevelActorContainer: Created LevelActorCluster (1118) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y4LOD/Heightmap_x4_y4_LOD1.Heightmap_x4_y4_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.27:856][613]LogLevelActorContainer: Created LevelActorCluster (1119) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y5LOD/Heightmap_x4_y5_LOD1.Heightmap_x4_y5_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.27:880][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2 took (less than) 23.71 ms
+[2018.07.13-19.29.28:982][613]LogLevelActorContainer: Created LevelActorCluster (1121) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.Heightmap_x5_y2:PersistentLevel with 1433 objects, 468 referenced clusters and 1942 mutable objects.
+[2018.07.13-19.29.29:844][613]LogLevelActorContainer: Created LevelActorCluster (1122) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y3.Heightmap_x5_y3:PersistentLevel with 2102 objects, 463 referenced clusters and 1970 mutable objects.
+[2018.07.13-19.29.29:844][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y3 took (less than) 39.93 ms
+[2018.07.13-19.29.34:150][613]LogLevelActorContainer: Created LevelActorCluster (1138) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Emotes.Gameplay_Emotes:PersistentLevel with 160 objects, 477 referenced clusters and 1696 mutable objects.
+[2018.07.13-19.29.34:161][613]Items:Error: Data: [BP_Emote_Worship_Mitra] missing lore item in table: 0
+[2018.07.13-19.29.34:161][613]Items:Error: Data: [BP_Emote_Worship_Set] missing lore item in table: 0
+[2018.07.13-19.29.34:161][613]Items:Error: Data: [BP_Emote_Worship_Yog] missing lore item in table: 0
+[2018.07.13-19.29.34:161][613]Items:Error: Data: [Teach_Skulltaker_feat] missing lore item in table: 0
+[2018.07.13-19.29.34:217][613]LogLevelActorContainer: Created LevelActorCluster (1139) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_East.Gameplay_NPCs_Desert_East:PersistentLevel with 72 objects, 0 referenced clusters and 6 mutable objects.
+[2018.07.13-19.29.34:252][613]LogLevelActorContainer: Created LevelActorCluster (1140) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2018.07.13-19.29.34:258][613]LogLevelActorContainer: Created LevelActorCluster (1141) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 18 objects, 0 referenced clusters and 4 mutable objects.
+[2018.07.13-19.29.34:270][613]LogLevelActorContainer: Created LevelActorCluster (1142) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_SouthEast.Gameplay_Prototype_SouthEast:PersistentLevel with 50 objects, 0 referenced clusters and 8 mutable objects.
+[2018.07.13-19.29.34:323][613]LogLevelActorContainer: Created LevelActorCluster (1143) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_StartingExperience.Gameplay_StartingExperience:PersistentLevel with 76 objects, 468 referenced clusters and 1671 mutable objects.
+[2018.07.13-19.29.34:323][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Gameplay/Gameplay_StartingExperience took (less than) 35.78 ms
+[2018.07.13-19.29.34:555][613]LogLevelActorContainer: Created LevelActorCluster (1144) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x4_y2-4.Camps-NPC_x4_y2-4:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.34:643][613]LogLevelActorContainer: Created LevelActorCluster (1145) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x4_y3.Camps_NPC_x4_y3:PersistentLevel with 6 objects, 464 referenced clusters and 1665 mutable objects.
+[2018.07.13-19.29.34:653][613]Items:Error: Data: [BP_interactable_clientside_567] missing lore item in table: 0
+[2018.07.13-19.29.34:702][613]LogLevelActorContainer: Created LevelActorCluster (1146) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y2.Camps_NPC_x5_y2:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.29.34:775][613]LogLevelActorContainer: Created LevelActorCluster (1147) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y3-2.Camps_NPC_x5_y3-2:PersistentLevel with 212 objects, 507 referenced clusters and 1713 mutable objects.
+[2018.07.13-19.29.34:775][613]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y3-2 took (less than) 44.51 ms
+[2018.07.13-19.29.34:812][613]LogEngine: BlockTillLevelStreamingCompleted: 2
+[2018.07.13-19.29.34:812][613]Streaming:Display: Waiting for streaming completed (game, NPC replication)
+[2018.07.13-19.29.34:813][613]Audio:Display: [ConanSandbox_C_0] Environment audio level loaded.
+[2018.07.13-19.29.35:029][614]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 17.53, Realtime: 17.53. IpNetDriver_0
+[2018.07.13-19.29.35:048][614]Streaming:Display: Waiting for streaming completed (game, NPC asyncloads)
+[2018.07.13-19.29.35:226][615]LogStreaming:Error: LoadPackageAsync tried to load package: 'BP_PL_Crafting_CampFire_752' 
+[2018.07.13-19.29.35:231][615]LogWindows: Windows GetLastError: The operation completed successfully. (0)

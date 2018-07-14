@@ -1,0 +1,691 @@
+﻿Log file open, 07/14/18 02:30:13
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogOnline:Warning: STEAM: Steam SDK 1.38a libraries not present at ../../../Engine/Binaries/ThirdParty/Steamworks/Steamv138a/Win64/ or failed to load!
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-98206.0
+LogInit: Engine Version: 4.15.3-98206+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-98206+ue415-dw-Stable-osl
+LogInit: Net CL: 98206
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 24 2018 17:27:21
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.07.13-19.30.13:197][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.13-19.30.13:197][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.13-19.30.13:249][  0]LogInit: Computer: DESKTOP-40S7AG1
+[2018.07.13-19.30.13:249][  0]LogInit: User: Beware
+[2018.07.13-19.30.13:249][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.07.13-19.30.13:249][  0]LogInit: High frequency timer resolution =2.533320 MHz
+[2018.07.13-19.30.13:249][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.13-19.30.13:249][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.13-19.30.13:249][  0]LogMemory: Process Physical Memory: 456.18 MB used, 456.18 MB peak
+[2018.07.13-19.30.13:249][  0]LogMemory: Process Virtual Memory: 482.01 MB used, 482.01 MB peak
+[2018.07.13-19.30.13:249][  0]LogMemory: Physical Memory: 3586.34 MB used,  4467.26 MB free, 8053.60 MB total
+[2018.07.13-19.30.13:249][  0]LogMemory: Virtual Memory: 4986.58 MB used,  4467.26 MB free, 134217728.00 MB total
+[2018.07.13-19.30.13:522][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.07.13-19.30.13:898][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.13-19.30.14:596][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2018.07.13-19.30.14:596][  0]LogD3D11RHI:       2009/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.13-19.30.14:628][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.07.13-19.30.14:628][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.13-19.30.14:633][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.13-19.30.14:633][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.13-19.30.14:633][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.13-19.30.14:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.13-19.30.14:648][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.13-19.30.14:648][  0]LogWindows: EnumDisplayDevices:
+[2018.07.13-19.30.14:648][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.07.13-19.30.14:648][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.13-19.30.14:649][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.13-19.30.14:649][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.13-19.30.14:649][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2018.07.13-19.30.14:649][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.13-19.30.14:649][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.13-19.30.14:649][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.13-19.30.14:803][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.07.13-19.30.14:806][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.13-19.30.14:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.13-19.30.14:943][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.13-19.30.14:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-19.30.14:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-19.30.15:578][  0]LogAssetRegistry: FAssetRegistry took 0.5576 seconds to start up
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld revision: 98222
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld snapshot: 17925
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: Platform: WindowsNoEditor
+[2018.07.13-19.30.15:752][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.07.13-19.30.15:776][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.009042 seconds
+[2018.07.13-19.30.15:779][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.13-19.30.15:780][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.07.13-19.30.15:821][  0]LogContentStreaming: Texture pool size is 500.00 MB
+[2018.07.13-19.30.15:883][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.07.13-19.30.15:967][  0]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3346072323
+[2018.07.13-19.30.15:967][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.13-19.30.16:001][  0]LogMoviePlayer: Initializing movie player
+[2018.07.13-19.30.16:476][  0]UserSettings:Display: User's IP Country Code is TH
+[2018.07.13-19.30.16:479][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2018.07.13-19.30.16:479][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2018.07.13-19.30.16:504][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.07.13-19.30.16:513][  0]LogUObjectArray: 42382 objects as part of root set at end of initial load.
+[2018.07.13-19.30.16:513][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2018.07.13-19.30.16:513][  0]LogUObjectAllocator: 8309704 out of 8388608 bytes used by permanent object pool.
+[2018.07.13-19.30.16:513][  0]LogUObjectArray: CloseDisregardForGC: 42382/42382 objects in disregard for GC pool
+[2018.07.13-19.30.16:525][  0]LogRcon:Display: Rcon disabled.
+[2018.07.13-19.30.16:525][  0]LogModManager: Searching for mod/dlc controllers.
+[2018.07.13-19.30.17:672][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanSword_DLC.pak added to pak precacher.
+[2018.07.13-19.30.17:672][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Items.pak added to pak precacher.
+[2018.07.13-19.30.17:672][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanArmor_DLC.pak added to pak precacher.
+[2018.07.13-19.30.17:672][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2018.07.13-19.30.17:672][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8001, overwriting.
+[2018.07.13-19.30.17:672][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8002, overwriting.
+[2018.07.13-19.30.17:673][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8003, overwriting.
+[2018.07.13-19.30.17:673][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8004, overwriting.
+[2018.07.13-19.30.17:674][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8005, overwriting.
+[2018.07.13-19.30.17:674][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8006, overwriting.
+[2018.07.13-19.30.17:674][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8007, overwriting.
+[2018.07.13-19.30.17:675][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8008, overwriting.
+[2018.07.13-19.30.17:675][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8009, overwriting.
+[2018.07.13-19.30.17:675][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8010, overwriting.
+[2018.07.13-19.30.17:675][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_ItemTable.ConanArmor_DLC_ItemTable
+[2018.07.13-19.30.17:675][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8001, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8002, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8003, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8004, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8005, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8006, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8007, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8008, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8009, overwriting.
+[2018.07.13-19.30.17:676][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8010, overwriting.
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_RecipeTable.ConanArmor_DLC_RecipeTable
+[2018.07.13-19.30.17:677][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8000, overwriting.
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8011, overwriting.
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_ItemTable.ConanSword_DLC_ItemTable
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8000, overwriting.
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8011, overwriting.
+[2018.07.13-19.30.17:677][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_RecipeTable.ConanSword_DLC_RecipeTable
+[2018.07.13-19.30.17:677][  0]LogModManager: Done searching for mod controllers.
+[2018.07.13-19.30.17:677][  0]LogEngine: Initializing Engine...
+[2018.07.13-19.30.17:706][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2018.07.13-19.30.17:706][  0]LogStreaming:Error: Found 0 dependent packages...
+[2018.07.13-19.30.17:706][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2018.07.13-19.30.17:860][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Slate.pak added to pak precacher.
+[2018.07.13-19.30.17:860][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.13-19.30.17:894][  0]LogInit: FAudioDevice initialized.
+[2018.07.13-19.30.17:906][  0]LogInit: Texture streaming: Enabled
+[2018.07.13-19.30.18:598][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Systems.pak added to pak precacher.
+[2018.07.13-19.30.18:598][  0]LogAsyncObjectFinder:Error: FAsyncObjectFinder: Asset "/Game/UI/UIModuleTable.UIModuleTable" (used by "/Engine/Transient.GUIModuleController_0") should have been loaded at this point! Please fix! Note: Will try to syncload the asset to continue execution.
+[2018.07.13-19.30.18:648][  0]LogInit:Display: Game Engine Initialized.
+[2018.07.13-19.30.18:649][  0]LogInit:Display: Starting Game.
+[2018.07.13-19.30.18:661][  0]LogNet: Browse: /Game/Maps/Startup?Name=Player
+[2018.07.13-19.30.18:661][  0]LogLoad: LoadMap: /Game/Maps/Startup?Name=Player
+[2018.07.13-19.30.21:666][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Maps.pak added to pak precacher.
+[2018.07.13-19.30.21:666][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Tools.pak added to pak precacher.
+[2018.07.13-19.30.21:666][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Characters.pak added to pak precacher.
+[2018.07.13-19.30.21:710][  0]LogAIModule: Creating AISystem for world Startup
+[2018.07.13-19.30.21:711][  0]LogLoad: Game class is 'StartupGameMode_C'
+[2018.07.13-19.30.21:713][  0]LogLevelActorContainer: Created LevelActorCluster (56) for /Game/Maps/Startup.Startup:PersistentLevel with 2 objects, 1 referenced clusters and 2 mutable objects.
+[2018.07.13-19.30.21:713][  0]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 0) at 2018.07.14-02.30.21
+[2018.07.13-19.30.21:713][  0]LogWorld: Bringing up level for play took: 0.001268
+[2018.07.13-19.30.21:720][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.13-19.30.21:720][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.13-19.30.21:720][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.13-19.30.21:720][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2018.07.13-19.30.21:987][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.30.21:987][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.30.21:988][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.30.21:988][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.30.21:989][  0]LogUMG:Display: Widget Class W_GamepadHelpOverlay_C - Loaded Fast Template.
+[2018.07.13-19.30.21:989][  0]UnitTest:Display: ClientState: 1
+[2018.07.13-19.30.21:990][  0]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.13-19.30.21:990][  0]LogUMG:Display: Widget Class W_MainMenu_MainMenu_C - Loaded Fast Template.
+[2018.07.13-19.30.21:994][  0]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.13-19.30.22:023][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.027211 seconds
+[2018.07.13-19.30.22:023][  0]Network:Display: Presence: "" => "PS_MainMenu".
+[2018.07.13-19.30.22:023][  0]LogUMG:Display: Widget Class W_MouseBlockWindow_C - Loaded Fast Template.
+[2018.07.13-19.30.22:024][  0]LogUMG:Display: Widget Class W_GamepadHelpEntry_C - Loaded Fast Template.
+[2018.07.13-19.30.22:024][  0]LogUMG:Display: Widget Class W_ActionTutorial_C - Loaded Fast Template.
+[2018.07.13-19.30.22:025][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2018.07.13-19.30.22:025][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1929): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", false)
+[2018.07.13-19.30.22:025][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.13-19.30.22:025][  0]LogLoad: Took 3.363950 seconds to LoadMap(/Game/Maps/Startup)
+[2018.07.13-19.30.22:227][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Effects.pak added to pak precacher.
+[2018.07.13-19.30.22:227][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.07.13-19.30.22:308][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WeatherEffects.pak added to pak precacher.
+[2018.07.13-19.30.22:310][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Environment.pak added to pak precacher.
+[2018.07.13-19.30.22:328][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Base.pak added to pak precacher.
+[2018.07.13-19.30.25:864][  0]LogLoad: (Engine Initialization) Total time: 16.32 seconds
+[2018.07.13-19.30.25:864][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.13-19.30.25:905][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.13-19.30.25:905][  0]LogCameraPhotography: Photography camera created.  Provider=NVIDIA Ansel, Supported=1
+[2018.07.13-19.30.25:912][  0]LogUMG:Display: Widget Class W_SubtitleRenderer_C - Loaded Fast Template.
+[2018.07.13-19.30.25:919][  0]LogSlate: Took 0.004129 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Bold_0_Default.ufont' (66K)
+[2018.07.13-19.30.25:926][  0]LogSlate: Took 0.004106 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Regular_0_Default.ufont' (106K)
+[2018.07.13-19.30.25:927][  0]LogStreaming:Display: Suspending async loading (1)
+[2018.07.13-19.30.26:398][  0]LogStreaming:Display: Resuming async loading (0)
+[2018.07.13-19.30.26:409][  1]LogUMG:Display: Widget Class W_PatchNotesEntryView_C - Loaded Fast Template.
+[2018.07.13-19.30.26:507][  1]LogRenderer: Reallocating scene render targets to support 720x540 NumSamples 1 (Frame:2).
+[2018.07.13-19.30.26:707][  1]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.13-19.30.26:713][  1]Network:Display: OnServerVoiceChatReplicated: Changed to Disabled
+[2018.07.13-19.30.26:716][  1]LogUMG:Display: Widget Class W_FIFOWindow_C - Loaded Fast Template.
+[2018.07.13-19.30.26:722][  1]LogSlate: Took 0.001843 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Bold.ufont' (60K)
+[2018.07.13-19.30.26:724][  1]LogSlate: Took 0.001243 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Normal.ufont' (62K)
+[2018.07.13-19.30.28:408][ 52]LogUMG:Display: Widget Class W_MessageBox_C - Loaded Fast Template.
+[2018.07.13-19.30.28:410][ 52]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.30.28:410][ 52]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.30.28:410][ 52]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.30.28:410][ 52]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? DESKTOP-40S7AG1-Beware-BFB23D9B4B7B60A4C6F492AD966946FC : 0
+[2018.07.13-19.30.28:412][ 52]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2018.07.13-19.30.28:418][ 52]LogSlate: Took 0.003419 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Normal.ufont' (299K)
+[2018.07.13-19.30.28:421][ 52]LogUMG:Display: Widget Class W_ServerList_C - Loaded Fast Template.
+[2018.07.13-19.30.28:458][ 52]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2018.07.13-19.30.28:458][ 52]LogUMG:Display: Widget Class W_DropDownText_C - Loaded Fast Template.
+[2018.07.13-19.30.28:474][ 52]LogSlate: Took 0.003812 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans-Italic_0_Default.ufont' (273K)
+[2018.07.13-19.30.28:478][ 52]LogSlate: Took 0.003333 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Alte_Haas_Grotesk_Regular_0_Default.ufont' (141K)
+[2018.07.13-19.30.29:365][ 76]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.30.29:532][ 81]LogInit: WinSock: I am DESKTOP-40S7AG1 (192.168.1.34:0)
+[2018.07.13-19.30.44:208][521]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.30.44:208][521]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.07.13-19.30.44:208][521]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.07.13-19.30.44:209][521]LogNet: Browse: 25.49.160.70//Game/Maps/Startup?Name=Player
+[2018.07.13-19.30.44:209][521]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.13-19.30.44:210][521]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.13-19.30.44:210][521]LogNet: Game client on port 7777, rate 15000
+[2018.07.13-19.30.44:210][521]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3374031125
+[2018.07.13-19.30.44:210][521]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.13-19.30.44:210][521]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 25.49.160.70:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.13-19.30.44:299][524]LogHandshake: SendChallengeResponse. Timestamp: 23.046326, Cookie: 046076113118129222072254064050060131162178095111030185036038
+[2018.07.13-19.30.44:433][528]ConanSandbox:Display: Server settings received
+[2018.07.13-19.30.44:433][528]LogNet: Welcomed by server (Level: /Game/Maps/ConanSandbox/ConanSandbox, Game: /Game/Systems/BaseGameMode.BaseGameMode_C)
+[2018.07.13-19.30.44:434][528]UnitTest:Display: ClientState: 1
+[2018.07.13-19.30.45:206][528]LogStreaming:Warning: Took 232.64ms to ProcessLoadedPackages
+[2018.07.13-19.30.45:230][528]UnitTest:Display: ClientState: 2
+[2018.07.13-19.30.45:230][528]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.13-19.30.45:230][528]LogUMG:Display: Widget Class W_IngameLoadingScreen_C - Loaded Fast Template.
+[2018.07.13-19.30.45:385][528]LogOnline:Warning: OSS: Can't cancel a search that isn't in progress
+[2018.07.13-19.30.45:386][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2018.07.13-19.30.45:386][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1884): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2018.07.13-19.30.45:386][528]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2018.07.13-19.30.45:386][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1449): UConanGameInstance::PreLoadMap_Callback: StartLoadingScreen
+[2018.07.13-19.30.45:387][528]LogUMG:Display: Widget Class W_HotkeyIcon_C - Loaded Fast Template.
+[2018.07.13-19.30.45:410][528]LogSlate: Took 0.004001 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Bold.ufont' (304K)
+[2018.07.13-19.30.45:518][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:520][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:520][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:520][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:520][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0004.gts (layer 3) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:694][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:694][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:694][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:694][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:694][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/1444.gts (layer 3) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:795][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:795][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:795][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:795][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0456.gts (layer 2) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:807][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:807][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts (layer 0) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:808][528]GraniteRenderLog:Warning: Tile set /Game/GraniteSDK/Baking/0166.gts (layer 1) was not found in the Granite settings.
+Please update the Granite settings (by clicking 'Update' in the Granite settings panel in the editor) to ensure the best performance and optimal memory use.
+[2018.07.13-19.30.45:809][528]LogLoad: LoadMap: 25.49.160.70//Game/Maps/ConanSandbox/ConanSandbox?Name=Player?game=/Game/Systems/BaseGameMode.BaseGameMode_C
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/RedDesertPack.pak added to pak precacher.
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/NaturePackage.pak added to pak precacher.
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Marketplace.pak added to pak precacher.
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Chameleon.pak added to pak precacher.
+[2018.07.13-19.30.47:099][528]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2018.07.13-19.30.47:099][528]LogStreaming:Error: Found 1 dependent packages...
+[2018.07.13-19.30.47:099][528]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ProceduralNaturePack.pak added to pak precacher.
+[2018.07.13-19.30.47:099][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/OceanFloor.pak added to pak precacher.
+[2018.07.13-19.30.47:510][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Master_AnimBP.pak added to pak precacher.
+[2018.07.13-19.30.47:825][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Elemental.pak added to pak precacher.
+[2018.07.13-19.30.52:779][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Cinematics.pak added to pak precacher.
+[2018.07.13-19.30.52:779][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WastelandRocks.pak added to pak precacher.
+[2018.07.13-19.30.52:779][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/100+crosshairspack.pak added to pak precacher.
+[2018.07.13-19.30.57:600][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Dev.pak added to pak precacher.
+[2018.07.13-19.31.12:457][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/FXVillesBloodVFXPack.pak added to pak precacher.
+[2018.07.13-19.31.12:457][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/TextureMax.pak added to pak precacher.
+[2018.07.13-19.31.12:692][528]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Developers.pak added to pak precacher.
+[2018.07.13-19.31.20:650][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(443): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2018.07.13-19.31.20:651][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(451): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2018.07.13-19.31.20:651][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1884): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2018.07.13-19.31.20:700][528]LogLevelActorContainer: Created LevelActorCluster (693) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 256 objects, 1 referenced clusters and 11 mutable objects.
+[2018.07.13-19.31.20:701][528]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2018.07.14-02.31.20
+[2018.07.13-19.31.20:704][528]LogWorld: Bringing up level for play took: 0.049785
+[2018.07.13-19.31.20:704][528]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1457): UConanGameInstance::PostLoadMap_Callback: StopLoadingScreen, m_ClientState = 2
+[2018.07.13-19.31.20:705][528]LogLoad: Took 34.895671 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2018.07.13-19.31.20:706][528]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.03, Realtime: 36.27. IpNetDriver_0
+[2018.07.13-19.31.21:056][529]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 36.62, Realtime: 0.35. IpNetDriver_0
+[2018.07.13-19.31.21:071][529]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(5924): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=0
+[2018.07.13-19.31.21:073][529]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(5924): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=2
+[2018.07.13-19.31.21:301][529]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_ServerSettings_C_0.SceneComponent_0'
+[2018.07.13-19.31.21:306][529]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2018.07.13-19.31.21:322][529]Main:Display: Registered service actor "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookup.BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2018.07.13-19.31.21:347][529]LogUMG:Display: Widget Class W_EnemyHealthbar_C - Loaded Fast Template.
+[2018.07.13-19.31.21:351][529]LogUMG:Display: Widget Class W_TargetLockHighlight_C - Loaded Fast Template.
+[2018.07.13-19.31.21:351][529]LogScriptCore:Warning: Script Msg: CacheAchievements or CacheAchievementDescriptions - Invalid player state
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:352][529]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.13-19.31.21:353][529]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.13-19.31.21:353][529]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.13-19.31.21:353][529]LogUMG:Display: Widget Class W_FIFOWindow_C - Loaded Fast Template.
+[2018.07.13-19.31.21:353][529]LogUMG:Display: Widget Class W_SubtitleRenderer_C - Loaded Fast Template.
+[2018.07.13-19.31.21:353][529]PIE:Warning: Warning The widget 'W_GamepadHelpOverlay_C' was already added to the screen.
+[2018.07.13-19.31.21:354][529]Audio:Display: [ConanSandbox_C_0] Loading environment audio level: Client or listen server.
+[2018.07.13-19.31.21:354][529]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/ConanSandbox_SOUND 1 1 0
+[2018.07.13-19.31.21:354][529]Audio:Display: [BP_SoundStage_C_0] Sound Stage on line
+[2018.07.13-19.31.21:355][529]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_SandStorm.SandstormMesh: Material index 1 is invalid.
+[2018.07.13-19.31.21:415][529]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.31.21:415][529]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.31.21:417][529]Network:Display: Network usage last 16908532.00 seconds
+[2018.07.13-19.31.21:418][529]Network:Display: out bytes min;out bytes max;out bytes avg;out bytes total;out parts min;out parts max;out parts avg;out parts total;in bytes min;in bytes max;in bytes avg;in bytes total;actor
+[2018.07.13-19.31.21:418][529]Network:Display: OnServerVoiceChatReplicated: Changed to Enabled
+[2018.07.13-19.31.21:420][529]Performance:Display: [BP_ConanWorldComposition_C_0] World Composition Update:
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [ADDED]
++STREAMING POSITION: X=-308288.000 Y=314140.000 Z=-20870.000 (from extra streaming position) [ADDED]
+
+[2018.07.13-19.31.21:427][529]LogUMG:Display: Widget Class W_FloatingName_C - Loaded Fast Template.
+[2018.07.13-19.31.23:411][529]Network:Display: Presence: "PS_MainMenu" => "PS_Wasteland".
+[2018.07.13-19.31.23:413][529]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  
+[2018.07.13-19.31.23:414][529]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  
+[2018.07.13-19.31.23:414][529]Network:Warning: Code: AConanPlayerController::GetPlayerName() failed to return player nickname, because IOnlineSubsystem is not valid:  Nuite
+[2018.07.13-19.31.23:415][529]CODEConanGameState:Warning: No guild found with id = 12. Number of registered guilds = 1.
+[2018.07.13-19.31.23:426][529]LogSlate: Took 0.001820 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Bold.ufont' (304K)
+[2018.07.13-19.31.23:457][530]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/DataLayer requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/DataLayer
+[2018.07.13-19.31.23:457][530]LogStreaming:Error: Found 1 dependent packages...
+[2018.07.13-19.31.23:457][530]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y0
+[2018.07.13-19.31.23:556][530]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Stumps_and_logs.pak added to pak precacher.
+[2018.07.13-19.31.23:559][530]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ForestMushroomsPack.pak added to pak precacher.
+[2018.07.13-19.31.23:598][530]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function StartSandstorm will not be processed.
+[2018.07.13-19.31.23:598][530]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function ServerRequestInitialMarkerUpdate will not be processed.
+[2018.07.13-19.31.23:598][530]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function ServerRequestInitialUpdate will not be processed.
+[2018.07.13-19.31.23:610][530]Network:Warning: Data: BasePlayerChar_C_0 (client) received 1181.0 bytes per second > 1024 (sample window size: 2.00 seconds)
+[2018.07.13-19.31.23:624][530]Effects:Display: [BP_CloudParticleSpawner BasePlayerChar_C_0] Actual max particle count: 49
+[2018.07.13-19.31.23:625][530]Performance:Display: [BP_ConanWorldComposition_C_0] World Composition Update:
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [REMOVED]
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 () overriden streaming location) [REMOVED]
+-STREAMING POSITION: X=-308288.000 Y=314140.000 Z=-20870.000 (from extra streaming position) [REMOVED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [ADDED]
++STREAMING POSITION: X=107068.805 Y=116709.898 Z=-13269.556 (from extra streaming position) [ADDED]
+
+[2018.07.13-19.31.23:626][530]CODEConanGameState:Warning: No guild found with id = 12. Number of registered guilds = 1.
+[2018.07.13-19.31.23:628][531]Streaming:Display: Waiting for streaming completed (game, unload)
+[2018.07.13-19.31.28:621][531]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ExampleContent.pak added to pak precacher.
+[2018.07.13-19.31.30:173][531]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Shaders.pak added to pak precacher.
+[2018.07.13-19.31.50:237][531]LogEngine: BlockTillLevelStreamingCompleted: 1
+[2018.07.13-19.31.50:239][531]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.31.50:239][531]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.31.50:239][531]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.31.50:239][531]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.31.50:240][531]LogNet: NotifyStreamingLevelUnload: PersistentLevel
+[2018.07.13-19.31.50:368][532]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 26.74, Realtime: 26.74. IpNetDriver_0
+[2018.07.13-19.31.50:399][532]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2018.07.13-19.31.50:408][532]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function StartSandstorm will not be processed.
+[2018.07.13-19.31.50:408][532]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function ServerRequestInitialMarkerUpdate will not be processed.
+[2018.07.13-19.31.50:408][532]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function ServerRequestInitialUpdate will not be processed.
+[2018.07.13-19.31.50:412][532]Streaming:Display: Waiting for streaming completed (game, load)
+[2018.07.13-19.31.55:164][532]LogLevelActorContainer: Created LevelActorCluster (1114) for /Game/Maps/ConanSandbox/ConanSandbox_SOUND.ConanSandbox_SOUND:PersistentLevel with 12 objects, 1 referenced clusters and 2 mutable objects.
+[2018.07.13-19.31.55:176][532]LogLevelActorContainer: Created LevelActorCluster (1115) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 4 referenced clusters and 10 mutable objects.
+[2018.07.13-19.31.56:183][532]LogLevelActorContainer: Created LevelActorCluster (1121) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y2.Art_Caves_x4_y2:PersistentLevel with 1982 objects, 483 referenced clusters and 1780 mutable objects.
+[2018.07.13-19.31.56:183][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y2 took (less than) 61.87 ms
+[2018.07.13-19.31.56:185][532]LogLevelActorContainer: Created LevelActorCluster (1122) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y2LOD/Heightmap_x3_y2_LOD1.Heightmap_x3_y2_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.31.56:186][532]LogLevelActorContainer: Created LevelActorCluster (1123) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y5LOD/Heightmap_x3_y5_LOD1.Heightmap_x3_y5_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.31.58:522][532]LogLevelActorContainer: Created LevelActorCluster (1126) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y2.Heightmap_x4_y2:PersistentLevel with 3271 objects, 551 referenced clusters and 2021 mutable objects.
+[2018.07.13-19.31.58:522][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y2 took (less than) 94.94 ms
+[2018.07.13-19.32.00:340][532]LogLevelActorContainer: Created LevelActorCluster (1130) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y3.Heightmap_x4_y3:PersistentLevel with 2673 objects, 474 referenced clusters and 1988 mutable objects.
+[2018.07.13-19.32.00:343][532]LogLevelActorContainer: Created LevelActorCluster (1131) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y4LOD/Heightmap_x4_y4_LOD1.Heightmap_x4_y4_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.32.00:343][532]LogLevelActorContainer: Created LevelActorCluster (1132) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y5LOD/Heightmap_x4_y5_LOD1.Heightmap_x4_y5_LOD1:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.32.00:367][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2 took (less than) 23.71 ms
+[2018.07.13-19.32.01:397][532]LogLevelActorContainer: Created LevelActorCluster (1134) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.Heightmap_x5_y2:PersistentLevel with 1433 objects, 481 referenced clusters and 1942 mutable objects.
+[2018.07.13-19.32.02:268][532]LogLevelActorContainer: Created LevelActorCluster (1135) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y3.Heightmap_x5_y3:PersistentLevel with 2102 objects, 474 referenced clusters and 1970 mutable objects.
+[2018.07.13-19.32.02:268][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y3 took (less than) 38.37 ms
+[2018.07.13-19.32.06:433][532]LogLevelActorContainer: Created LevelActorCluster (1150) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Emotes.Gameplay_Emotes:PersistentLevel with 160 objects, 488 referenced clusters and 1696 mutable objects.
+[2018.07.13-19.32.06:444][532]Items:Error: Data: [BP_Emote_Worship_Mitra] missing lore item in table: 0
+[2018.07.13-19.32.06:444][532]Items:Error: Data: [BP_Emote_Worship_Set] missing lore item in table: 0
+[2018.07.13-19.32.06:444][532]Items:Error: Data: [BP_Emote_Worship_Yog] missing lore item in table: 0
+[2018.07.13-19.32.06:445][532]Items:Error: Data: [Teach_Skulltaker_feat] missing lore item in table: 0
+[2018.07.13-19.32.06:509][532]LogLevelActorContainer: Created LevelActorCluster (1151) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_East.Gameplay_NPCs_Desert_East:PersistentLevel with 72 objects, 0 referenced clusters and 6 mutable objects.
+[2018.07.13-19.32.06:546][532]LogLevelActorContainer: Created LevelActorCluster (1152) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2018.07.13-19.32.06:553][532]LogLevelActorContainer: Created LevelActorCluster (1153) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 18 objects, 0 referenced clusters and 4 mutable objects.
+[2018.07.13-19.32.06:567][532]LogLevelActorContainer: Created LevelActorCluster (1154) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_SouthEast.Gameplay_Prototype_SouthEast:PersistentLevel with 50 objects, 0 referenced clusters and 8 mutable objects.
+[2018.07.13-19.32.06:621][532]LogLevelActorContainer: Created LevelActorCluster (1155) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_StartingExperience.Gameplay_StartingExperience:PersistentLevel with 76 objects, 481 referenced clusters and 1671 mutable objects.
+[2018.07.13-19.32.06:621][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Gameplay/Gameplay_StartingExperience took (less than) 36.18 ms
+[2018.07.13-19.32.06:855][532]LogLevelActorContainer: Created LevelActorCluster (1156) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x4_y2-4.Camps-NPC_x4_y2-4:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.32.06:947][532]LogLevelActorContainer: Created LevelActorCluster (1157) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x4_y3.Camps_NPC_x4_y3:PersistentLevel with 6 objects, 475 referenced clusters and 1665 mutable objects.
+[2018.07.13-19.32.06:957][532]Items:Error: Data: [BP_interactable_clientside_567] missing lore item in table: 0
+[2018.07.13-19.32.07:002][532]LogLevelActorContainer: Created LevelActorCluster (1158) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y2.Camps_NPC_x5_y2:PersistentLevel with 2 objects, 0 referenced clusters and 2 mutable objects.
+[2018.07.13-19.32.07:081][532]LogLevelActorContainer: Created LevelActorCluster (1159) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y3-2.Camps_NPC_x5_y3-2:PersistentLevel with 212 objects, 519 referenced clusters and 1713 mutable objects.
+[2018.07.13-19.32.07:081][532]LogStreaming:Display: UWorld::AddToWorld: updating components for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y3-2 took (less than) 50.44 ms
+[2018.07.13-19.32.07:116][532]LogEngine: BlockTillLevelStreamingCompleted: 2
+[2018.07.13-19.32.07:116][532]Streaming:Display: Waiting for streaming completed (game, NPC replication)
+[2018.07.13-19.32.07:117][532]Audio:Display: [ConanSandbox_C_0] Environment audio level loaded.
+[2018.07.13-19.32.07:335][533]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 16.97, Realtime: 16.97. IpNetDriver_0
+[2018.07.13-19.32.07:349][533]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor Corpse_C_0. Function ServerSetInventory will not be processed.
+[2018.07.13-19.32.07:366][533]Streaming:Display: Waiting for streaming completed (game, NPC asyncloads)
+[2018.07.13-19.32.07:679][535]Streaming:Display: Waiting for streaming completed (game): Done.
+[2018.07.13-19.32.07:679][535]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3101): AConanPlayerController::Tick: SetTransitionState(3), TransitionState=2
+[2018.07.13-19.32.07:679][535]ConanGameInstanceLog:Warning: Levels loaded: 255/255
+[2018.07.13-19.32.07:800][537]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:834][538]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:834][538]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:865][539]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:865][539]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:899][540]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:899][540]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.07:909][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(1688): AConanPlayerController::ClientCompleteSpawn_Implementation: SetTransitionState(0), TransitionState=3
+[2018.07.13-19.32.07:909][540]UnitTest:Display: ClientState: 3
+[2018.07.13-19.32.07:910][540]ConanSandbox:Warning: Voice Enable State :TRUE (ClientS:1)
+[2018.07.13-19.32.07:910][540]LogUMG:Display: Widget Class W_HUDCharacterStatIndicators_C - Loaded Fast Template.
+[2018.07.13-19.32.07:915][540]LogUMG:Display: Widget Class W_ChatWindow_C - Loaded Fast Template.
+[2018.07.13-19.32.07:916][540]LogUMG:Display: Widget Class W_RichChatLine_C - Loaded Fast Template.
+[2018.07.13-19.32.08:004][540]LogUMG:Display: Widget Class W_VoiceChatWindow_C - Loaded Fast Template.
+[2018.07.13-19.32.08:004][540]LogUMG:Display: Widget Class W_OnScreenInfoContainer_C - Loaded Fast Template.
+[2018.07.13-19.32.08:004][540]LogUMG:Display: Widget Class W_HUD_Crafting_C - Loaded Fast Template.
+[2018.07.13-19.32.08:006][540]LogUMG:Display: Widget Class W_Crosshair_C - Loaded Fast Template.
+[2018.07.13-19.32.08:006][540]LogUMG:Display: Widget Class W_Carousel_C - Loaded Fast Template.
+[2018.07.13-19.32.08:009][540]LogUMG:Display: Widget Class W_ExilesJourneyTrial_C - Loaded Fast Template.
+[2018.07.13-19.32.08:010][540]LogUMG:Display: Widget Class W_ExilesJourneyTrialStep_C - Loaded Fast Template.
+[2018.07.13-19.32.08:017][540]LogUMG:Display: Widget Class W_GameModeHints_C - Loaded Fast Template.
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(52): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2018.07.13-19.32.08:020][540]ConanSandbox: RemoveIngameLoadingScreen
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(44): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2018.07.13-19.32.08:020][540]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2018.07.13-19.32.08:020][540]Main:Display: Entering game session (playing as Coop)...
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(1696): AConanPlayerController::ClientCompleteSpawn_Implementation: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(52): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2018.07.13-19.32.08:020][540]ConanSandbox: RemoveIngameLoadingScreen
+[2018.07.13-19.32.08:020][540]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(44): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2018.07.13-19.32.08:020][540]Network:Display: OnServerVoiceChatReplicated: Changed to Enabled
+[2018.07.13-19.32.08:020][540]LogUMG:Display: Widget Class W_HUD_C - Loaded Fast Template.
+[2018.07.13-19.32.08:021][540]LogUMG:Display: Widget Class W_HUD_LootLogElement_C - Loaded Fast Template.
+[2018.07.13-19.32.08:024][540]LogUMG:Display: Widget Class W_FullScreenEffectContainer_C - Loaded Fast Template.
+[2018.07.13-19.32.08:024][540]LogUMG:Display: Widget Class W_HudDamageIndicator_C - Loaded Fast Template.
+[2018.07.13-19.32.08:026][540]LogUMG:Display: Widget Class W_FullScreenBuffEffect_C - Loaded Fast Template.
+[2018.07.13-19.32.08:040][540]Performance:Display: [BP_ConanWorldComposition_C_0] World Composition Update:
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [REMOVED]
+-STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from player #0 (Nuite) overriden streaming location) [REMOVED]
++STREAMING POSITION: X=106836.578 Y=116761.859 Z=-13213.451 (from player #0 (Nuite) player viewpoint) [ADDED]
+=STREAMING POSITION: X=107068.781 Y=116709.859 Z=-13261.878 (from extra streaming position)
+
+[2018.07.13-19.32.08:115][540]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:115][540]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:115][540]LogSlate: Took 0.070211 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/UI/Fonts/OpenSans_0_Bold.ufont' (220K)
+[2018.07.13-19.32.08:122][540]LogSlate: Took 0.001138 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Alte_Haas_Grotesk_Regular_0_Default.ufont' (141K)
+[2018.07.13-19.32.08:123][540]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2018.07.13-19.32.08:126][540]LogSlate: Took 0.001856 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Normal.ufont' (62K)
+[2018.07.13-19.32.08:130][540]LogSlate: Took 0.001469 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Bold.ufont' (60K)
+[2018.07.13-19.32.08:154][540]LogSlate: Took 0.022079 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/UI/Textures/GUIs/MainMenu/F_BebasKai_0_Font.ufont' (35K)
+[2018.07.13-19.32.08:209][542]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:209][542]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:209][542]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:209][542]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:226][543]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:226][543]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:226][543]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:226][543]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:315][545]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:315][545]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:315][545]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:315][545]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:344][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:344][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:344][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:344][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:345][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:345][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:345][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:345][546]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:372][546]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_1. Function ServerInsideValueChanged will not be processed.
+[2018.07.13-19.32.08:378][547]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:378][547]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:378][547]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:378][547]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:412][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:412][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:412][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:412][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:442][548]LogUMG:Display: Widget Class W_HUD_BuffEntry_C - Loaded Fast Template.
+[2018.07.13-19.32.08:444][548]LogUMG:Display: Widget Class W_HUD_BuffList_C - Loaded Fast Template.
+[2018.07.13-19.32.08:472][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:472][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:472][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:472][548]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:472][548]LogSlate: Took 0.024523 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Alte_Haas_Grotesk_Bold_0_Default.ufont' (142K)
+[2018.07.13-19.32.08:476][548]LogSlate: Took 0.003696 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Normal.ufont' (299K)
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:529][551]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:549][551]Network:Warning: Data: 0 (client) received 2449.0 bytes per second > 1024 (sample window size: 2.00 seconds)
+[2018.07.13-19.32.08:549][551]Network:Warning: Data: BasePlayerChar_C_2 (client) received 1926.0 bytes per second > 1024 (sample window size: 2.00 seconds)
+[2018.07.13-19.32.08:549][551]Network:Warning: Data: Corpse_C_0 (client) received 5437.0 bytes per second > 1024 (sample window size: 2.00 seconds)
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:594][553]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:629][554]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:629][554]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:629][554]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:629][554]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:662][555]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:662][555]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:662][555]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:662][555]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:690][555]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor BasePlayerChar_C_2. Function ServerInsideValueChanged will not be processed.
+[2018.07.13-19.32.08:695][556]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:695][556]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:695][556]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:696][556]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:761][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:762][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:762][558]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:795][559]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:795][559]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:795][559]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:795][559]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:828][560]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:828][560]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:828][560]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:828][560]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:861][561]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:861][561]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:861][561]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:861][561]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:894][562]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:894][562]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:894][562]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:894][562]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:929][563]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:929][563]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:929][563]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:929][563]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:960][564]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:960][564]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:960][564]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:960][564]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:994][565]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:994][565]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:994][565]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.08:994][565]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:028][566]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:028][566]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:028][566]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:028][566]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:094][568]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:127][569]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:127][569]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:127][569]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:127][569]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:164][570]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:164][570]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:164][570]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:164][570]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:227][572]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:262][573]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:262][573]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:262][573]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:262][573]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:295][574]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:295][574]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:295][574]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:295][574]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:328][575]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:328][575]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:328][575]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:328][575]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:365][576]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:365][576]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:365][576]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:365][576]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:397][577]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:397][577]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:397][577]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:397][577]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:464][579]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:494][580]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:494][580]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:494][580]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:494][580]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:530][581]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:530][581]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:530][581]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:530][581]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:597][583]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:630][584]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:630][584]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:630][584]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:630][584]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:667][585]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:667][585]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:667][585]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:667][585]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:699][586]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:699][586]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:699][586]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:699][586]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:733][587]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:733][587]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:733][587]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:733][587]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:767][588]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:767][588]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:767][588]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:767][588]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:799][589]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:799][589]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:799][589]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:799][589]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:834][590]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:834][590]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:834][590]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:834][590]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:867][591]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:867][591]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:867][591]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:867][591]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:906][592]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:906][592]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:906][592]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:906][592]LogAudio:Warning: Failed to start sound source for env_water_river_large_capsule
+[2018.07.13-19.32.09:918][592]LogStreaming:Error: LoadPackageAsync tried to load package: 'BP_PL_Crafting_CampFire_752' 
+[2018.07.13-19.32.09:920][592]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -1,0 +1,456 @@
+﻿Log file open, 07/14/18 13:41:10
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-98206.0
+LogInit: Engine Version: 4.15.3-98206+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-98206+ue415-dw-Stable-osl
+LogInit: Net CL: 98206
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 24 2018 17:27:21
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.07.14-06.41.11:167][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.14-06.41.11:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.14-06.41.11:239][  0]LogInit: Computer: DESKTOP-40S7AG1
+[2018.07.14-06.41.11:239][  0]LogInit: User: Beware
+[2018.07.14-06.41.11:239][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.07.14-06.41.11:239][  0]LogInit: High frequency timer resolution =2.533320 MHz
+[2018.07.14-06.41.11:239][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.14-06.41.11:239][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.14-06.41.11:239][  0]LogMemory: Process Physical Memory: 475.33 MB used, 475.33 MB peak
+[2018.07.14-06.41.11:239][  0]LogMemory: Process Virtual Memory: 492.51 MB used, 492.51 MB peak
+[2018.07.14-06.41.11:239][  0]LogMemory: Physical Memory: 3098.24 MB used,  4955.36 MB free, 8053.60 MB total
+[2018.07.14-06.41.11:239][  0]LogMemory: Virtual Memory: 5086.86 MB used,  4955.36 MB free, 134217728.00 MB total
+[2018.07.14-06.41.11:513][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.07.14-06.41.11:866][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.14-06.41.12:533][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2018.07.14-06.41.12:533][  0]LogD3D11RHI:       2009/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.14-06.41.12:541][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.07.14-06.41.12:541][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.14-06.41.12:545][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.14-06.41.12:545][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.14-06.41.12:545][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.14-06.41.12:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.14-06.41.12:559][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.14-06.41.12:559][  0]LogWindows: EnumDisplayDevices:
+[2018.07.14-06.41.12:559][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.07.14-06.41.12:559][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.14-06.41.12:560][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.14-06.41.12:560][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.14-06.41.12:560][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2018.07.14-06.41.12:560][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.14-06.41.12:560][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.14-06.41.12:560][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.14-06.41.12:706][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.07.14-06.41.12:710][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.14-06.41.12:729][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.14-06.41.12:842][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.14-06.41.12:843][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-06.41.12:843][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-06.41.13:452][  0]LogAssetRegistry: FAssetRegistry took 0.5351 seconds to start up
+[2018.07.14-06.41.13:627][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.07.14-06.41.13:627][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.07.14-06.41.13:627][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: Dreamworld revision: 98222
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: Dreamworld snapshot: 17925
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: Platform: WindowsNoEditor
+[2018.07.14-06.41.13:628][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.07.14-06.41.13:651][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.008890 seconds
+[2018.07.14-06.41.13:653][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.14-06.41.13:655][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.07.14-06.41.13:703][  0]LogContentStreaming: Texture pool size is 500.00 MB
+[2018.07.14-06.41.13:752][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.07.14-06.41.13:836][  0]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3346072323
+[2018.07.14-06.41.13:836][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.14-06.41.13:870][  0]LogMoviePlayer: Initializing movie player
+[2018.07.14-06.41.14:273][  0]UserSettings:Display: User's IP Country Code is TH
+[2018.07.14-06.41.14:277][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2018.07.14-06.41.14:278][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2018.07.14-06.41.14:286][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.07.14-06.41.14:296][  0]LogUObjectArray: 42382 objects as part of root set at end of initial load.
+[2018.07.14-06.41.14:296][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2018.07.14-06.41.14:296][  0]LogUObjectAllocator: 8309704 out of 8388608 bytes used by permanent object pool.
+[2018.07.14-06.41.14:296][  0]LogUObjectArray: CloseDisregardForGC: 42382/42382 objects in disregard for GC pool
+[2018.07.14-06.41.14:308][  0]LogRcon:Display: Rcon disabled.
+[2018.07.14-06.41.14:308][  0]LogModManager: Searching for mod/dlc controllers.
+[2018.07.14-06.41.15:338][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanSword_DLC.pak added to pak precacher.
+[2018.07.14-06.41.15:339][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Items.pak added to pak precacher.
+[2018.07.14-06.41.15:339][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanArmor_DLC.pak added to pak precacher.
+[2018.07.14-06.41.15:339][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2018.07.14-06.41.15:339][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8001, overwriting.
+[2018.07.14-06.41.15:339][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8002, overwriting.
+[2018.07.14-06.41.15:339][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8003, overwriting.
+[2018.07.14-06.41.15:339][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8004, overwriting.
+[2018.07.14-06.41.15:340][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8005, overwriting.
+[2018.07.14-06.41.15:340][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8006, overwriting.
+[2018.07.14-06.41.15:340][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8007, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8008, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8009, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8010, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_ItemTable.ConanArmor_DLC_ItemTable
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8001, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8002, overwriting.
+[2018.07.14-06.41.15:341][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8003, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8004, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8005, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8006, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8007, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8008, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8009, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8010, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_RecipeTable.ConanArmor_DLC_RecipeTable
+[2018.07.14-06.41.15:342][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8000, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/ItemTable.ItemTable with RowName: 8011, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_ItemTable.ConanSword_DLC_ItemTable
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8000, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Found existing table entry for /Game/Items/Recipes/RecipesTable.RecipesTable with RowName: 8011, overwriting.
+[2018.07.14-06.41.15:342][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_RecipeTable.ConanSword_DLC_RecipeTable
+[2018.07.14-06.41.15:342][  0]LogModManager: Done searching for mod controllers.
+[2018.07.14-06.41.15:342][  0]LogEngine: Initializing Engine...
+[2018.07.14-06.41.15:365][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2018.07.14-06.41.15:365][  0]LogStreaming:Error: Found 0 dependent packages...
+[2018.07.14-06.41.15:365][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2018.07.14-06.41.15:529][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Slate.pak added to pak precacher.
+[2018.07.14-06.41.15:529][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.14-06.41.15:578][  0]LogInit: FAudioDevice initialized.
+[2018.07.14-06.41.15:590][  0]LogInit: Texture streaming: Enabled
+[2018.07.14-06.41.16:452][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Systems.pak added to pak precacher.
+[2018.07.14-06.41.16:452][  0]LogAsyncObjectFinder:Error: FAsyncObjectFinder: Asset "/Game/UI/UIModuleTable.UIModuleTable" (used by "/Engine/Transient.GUIModuleController_0") should have been loaded at this point! Please fix! Note: Will try to syncload the asset to continue execution.
+[2018.07.14-06.41.16:488][  0]LogInit:Display: Game Engine Initialized.
+[2018.07.14-06.41.16:488][  0]LogInit:Display: Starting Game.
+[2018.07.14-06.41.16:489][  0]LogNet: Browse: /Game/Maps/Startup?Name=Player
+[2018.07.14-06.41.16:489][  0]LogLoad: LoadMap: /Game/Maps/Startup?Name=Player
+[2018.07.14-06.41.19:700][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Maps.pak added to pak precacher.
+[2018.07.14-06.41.19:700][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Tools.pak added to pak precacher.
+[2018.07.14-06.41.19:700][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Characters.pak added to pak precacher.
+[2018.07.14-06.41.19:723][  0]LogAIModule: Creating AISystem for world Startup
+[2018.07.14-06.41.19:724][  0]LogLoad: Game class is 'StartupGameMode_C'
+[2018.07.14-06.41.19:725][  0]LogLevelActorContainer: Created LevelActorCluster (57) for /Game/Maps/Startup.Startup:PersistentLevel with 2 objects, 1 referenced clusters and 2 mutable objects.
+[2018.07.14-06.41.19:725][  0]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 0) at 2018.07.14-13.41.19
+[2018.07.14-06.41.19:725][  0]LogWorld: Bringing up level for play took: 0.000845
+[2018.07.14-06.41.19:731][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.14-06.41.19:731][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.14-06.41.19:731][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.14-06.41.19:731][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2018.07.14-06.41.19:969][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '60'
+[2018.07.14-06.41.19:969][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.19:974][  0]LogUMG:Display: Widget Class W_GamepadHelpOverlay_C - Loaded Fast Template.
+[2018.07.14-06.41.19:974][  0]UnitTest:Display: ClientState: 1
+[2018.07.14-06.41.19:975][  0]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.14-06.41.19:975][  0]LogUMG:Display: Widget Class W_MainMenu_MainMenu_C - Loaded Fast Template.
+[2018.07.14-06.41.19:978][  0]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.14-06.41.19:998][  0]Network:Display: Presence: "" => "PS_MainMenu".
+[2018.07.14-06.41.19:998][  0]LogUMG:Display: Widget Class W_MouseBlockWindow_C - Loaded Fast Template.
+[2018.07.14-06.41.19:998][  0]LogUMG:Display: Widget Class W_GamepadHelpEntry_C - Loaded Fast Template.
+[2018.07.14-06.41.19:999][  0]LogUMG:Display: Widget Class W_ActionTutorial_C - Loaded Fast Template.
+[2018.07.14-06.41.20:000][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.024362 seconds
+[2018.07.14-06.41.20:000][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2018.07.14-06.41.20:000][  0]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1929): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", false)
+[2018.07.14-06.41.20:001][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.14-06.41.20:001][  0]LogLoad: Took 3.511467 seconds to LoadMap(/Game/Maps/Startup)
+[2018.07.14-06.41.20:207][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Effects.pak added to pak precacher.
+[2018.07.14-06.41.20:207][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.07.14-06.41.20:226][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WeatherEffects.pak added to pak precacher.
+[2018.07.14-06.41.20:226][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Environment.pak added to pak precacher.
+[2018.07.14-06.41.20:253][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Base.pak added to pak precacher.
+[2018.07.14-06.41.22:331][  0]LogLoad: (Engine Initialization) Total time: 15.56 seconds
+[2018.07.14-06.41.22:331][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.14-06.41.22:355][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.14-06.41.22:355][  0]LogCameraPhotography: Photography camera created.  Provider=NVIDIA Ansel, Supported=1
+[2018.07.14-06.41.22:363][  0]LogUMG:Display: Widget Class W_SubtitleRenderer_C - Loaded Fast Template.
+[2018.07.14-06.41.22:393][  0]LogSlate: Took 0.026763 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Bold_0_Default.ufont' (66K)
+[2018.07.14-06.41.22:476][  0]LogSlate: Took 0.081961 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Kelson_Sans_Regular_0_Default.ufont' (106K)
+[2018.07.14-06.41.22:478][  0]LogStreaming:Display: Suspending async loading (1)
+[2018.07.14-06.41.22:687][  0]LogStreaming:Display: Resuming async loading (0)
+[2018.07.14-06.41.22:698][  1]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamGetAchievements bWasSuccessful: 0 UserId: Nuit Chicken Run V2 [0x1100001078CE464]' failed in 2.723323 seconds
+[2018.07.14-06.41.22:698][  1]LogUMG:Display: Widget Class W_PatchNotesEntryView_C - Loaded Fast Template.
+[2018.07.14-06.41.22:792][  1]LogRenderer: Reallocating scene render targets to support 1368x768 NumSamples 1 (Frame:2).
+[2018.07.14-06.41.22:882][  1]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.07.14-06.41.22:888][  1]Network:Display: OnServerVoiceChatReplicated: Changed to Disabled
+[2018.07.14-06.41.22:891][  1]LogUMG:Display: Widget Class W_FIFOWindow_C - Loaded Fast Template.
+[2018.07.14-06.41.22:898][  1]LogSlate: Took 0.001779 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Bold.ufont' (60K)
+[2018.07.14-06.41.22:900][  1]LogSlate: Took 0.001296 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/KelsonSans_0_Normal.ufont' (62K)
+[2018.07.14-06.41.24:772][113]LogUMG:Display: Widget Class W_Settings_C - Loaded Fast Template.
+[2018.07.14-06.41.24:834][113]LogUMG:Display: Widget Class W_DropDownText_C - Loaded Fast Template.
+[2018.07.14-06.41.24:848][113]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.14-06.41.24:862][113]LogUMG:Display: Widget Class W_KeyBindings_Category_C - Loaded Fast Template.
+[2018.07.14-06.41.24:863][113]LogUMG:Display: Widget Class W_KeyBindings_Entry_C - Loaded Fast Template.
+[2018.07.14-06.41.24:868][113]KeyBindings:Warning: Could not find a key mapping to match RapidFireInteractKey. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.24:990][113]KeyBindings:Warning: Could not find a key mapping to match DecreaseHackFlySpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.24:992][113]KeyBindings:Warning: Could not find a key mapping to match DecreaseHackFlyTurnSpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.24:993][113]KeyBindings:Warning: Could not find a key mapping to match IncreaseHackFlySpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.24:995][113]KeyBindings:Warning: Could not find a key mapping to match IncreaseHackFlyTurnSpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.25:000][113]KeyBindings:Warning: Could not find a key mapping to match DEV_TriggerPhysicsAnimationNudge. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.25:009][113]LogSlate: Took 0.000490 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2018.07.14-06.41.25:021][113]LogSlate: Took 0.011262 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/Alte_Haas_Grotesk_Regular_0_Default.ufont' (141K)
+[2018.07.14-06.41.25:302][113]LogSlate: Took 0.034121 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Normal.ufont' (299K)
+[2018.07.14-06.41.36:419][772]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '60'
+[2018.07.14-06.41.36:419][772]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.36:438][772]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.14-06.41.36:438][772]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.36:449][772]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.14-06.41.36:449][772]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.14-06.41.36:449][772]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.36:449][772]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.36:449][772]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.36:450][772]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.14-06.41.36:450][772]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.14-06.41.36:451][772]LogConsoleResponse:Display: 
+[2018.07.14-06.41.36:485][773]LogRenderer: Reallocating scene render targets to support 1368x768 NumSamples 1 (Frame:774).
+[2018.07.14-06.41.36:525][775]LogRenderer: Reallocating scene render targets to support 732x412 NumSamples 1 (Frame:775).
+[2018.07.14-06.41.39:113][850]KeyBindings:Warning: Could not find a key mapping to match RapidFireInteractKey. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.39:227][850]KeyBindings:Warning: Could not find a key mapping to match DecreaseHackFlySpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.39:228][850]KeyBindings:Warning: Could not find a key mapping to match DecreaseHackFlyTurnSpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.39:230][850]KeyBindings:Warning: Could not find a key mapping to match IncreaseHackFlySpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.39:231][850]KeyBindings:Warning: Could not find a key mapping to match IncreaseHackFlyTurnSpeed. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.39:237][850]KeyBindings:Warning: Could not find a key mapping to match DEV_TriggerPhysicsAnimationNudge. This mapping will not be included in the list of available key bindings.
+[2018.07.14-06.41.45:554][ 29]LogStreaming:Display: Suspending async loading (1)
+[2018.07.14-06.41.45:595][ 29]LogStreaming:Display: Resuming async loading (0)
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.45:600][ 29]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.14-06.41.45:601][ 29]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.14-06.41.45:602][ 29]LogConsoleResponse:Display: 
+[2018.07.14-06.41.45:619][ 30]LogRenderer: Reallocating scene render targets to support 552x412 NumSamples 1 (Frame:1032).
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '30'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.07'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.Shadow.DistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.Tonemapper.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '8'
+[2018.07.14-06.41.46:899][ 68]LogConsoleManager:Warning: Setting the console variable 'r.EmitterSpawnRateScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0.075'
+[2018.07.14-06.41.46:900][ 68]LogConsoleResponse:Display: 
+[2018.07.14-06.41.48:331][111]LogUMG:Display: Widget Class W_MessageBox_C - Loaded Fast Template.
+[2018.07.14-06.41.48:333][111]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.41.48:333][111]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.41.48:333][111]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.41.48:333][111]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.41.48:337][111]LogUMG:Display: Widget Class W_ServerList_C - Loaded Fast Template.
+[2018.07.14-06.41.48:369][111]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2018.07.14-06.41.48:411][111]LogSlate: Took 0.033985 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans-Italic_0_Default.ufont' (273K)
+[2018.07.14-06.41.49:148][134]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.41.50:383][172]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3374031125
+[2018.07.14-06.41.50:383][172]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.14-06.41.51:350][200]LogUMG:Display: Widget Class W_ServerInfo_C - Loaded Fast Template.
+[2018.07.14-06.41.52:351][231]LogOnline:Warning: STEAM: Failed to respond IP:70.186.105.131
+[2018.07.14-06.41.52:351][231]LogOnline:Warning: STEAM: Failed to respond IP:160.226.230.207
+[2018.07.14-06.41.52:718][242]LogOnline:Warning: STEAM: Failed to respond IP:88.102.230.94
+[2018.07.14-06.41.52:785][244]LogOnline:Warning: STEAM: Failed to respond IP:37.110.159.115
+[2018.07.14-06.41.52:785][244]LogOnline:Warning: STEAM: Failed to respond IP:77.238.154.91
+[2018.07.14-06.41.52:785][244]LogOnline:Warning: STEAM: Failed to respond IP:109.106.143.224
+[2018.07.14-06.41.52:818][245]LogOnline:Warning: STEAM: Failed to respond IP:113.95.191.3
+[2018.07.14-06.41.52:887][247]LogOnline:Warning: STEAM: Failed to respond IP:106.73.141.224
+[2018.07.14-06.42.13:615][868]LogUMG:Display: Widget Class W_ServerSetting_C - Loaded Fast Template.
+[2018.07.14-06.42.41:008][689]LogUMG:Display: Widget Class W_PasswordDialog_C - Loaded Fast Template.
+[2018.07.14-06.42.42:340][729]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.42.42:340][729]UnitTest:Display: ClientState: 2
+[2018.07.14-06.42.42:340][729]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.14-06.42.42:340][729]LogUMG:Display: Widget Class W_IngameLoadingScreen_C - Loaded Fast Template.
+[2018.07.14-06.42.42:381][729]LogUMG:Display: Widget Class W_HotkeyIcon_C - Loaded Fast Template.
+[2018.07.14-06.42.42:386][729]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.42.42:389][729]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2018.07.14-06.42.42:389][729]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1884): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2018.07.14-06.42.42:389][729]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2018.07.14-06.42.42:490][729]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.42.42:490][729]ConanSandbox:Display: Joined online session ID: 90116098372556809
+[2018.07.14-06.42.42:500][729]LogSlate: Took 0.007326 seconds to synchronously load lazily loaded font '../../../ConanSandbox/Content/Slate/NotoSans_0_Bold.ufont' (304K)
+[2018.07.14-06.42.42:513][731]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamGetAchievements bWasSuccessful: 0 UserId: Nuit Chicken Run V2 [0x1100001078CE464]' failed in 0.170384 seconds
+[2018.07.14-06.42.43:493][754]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.07.14-06.42.43:493][754]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.07.14-06.42.43:493][754]LogNet: Browse: 60.52.106.160//Game/Maps/Startup?SteamAuthTicket=1400000012C3D322FEA135F864E48C07010010012196495B180000000100000002000000431C7A7C2201A8C03CB1140002000000B2000000320000000400000064E48C0701001001E001000062275A3D9E234319000000004CBD465BCC6C625B01000000000000000000D42A2E215379B3276ACD9A4D546325A6895E09A76478DBD6EFDCE442387AA827C111953D1940459102B09642C912A201DABEFDE68089475AB9FEF3CFC92F63F656428035AEE3DA8E2AF5A1057DB455C6CB8AA2FF20F80854B569DF63A1DC9F0D169EB8A831C80525F01117EC574825E77011E4CCAB4DB35851EF49EB27385385?Password=?Ping=95
+[2018.07.14-06.42.43:493][754]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.14-06.42.43:502][754]LogInit: WinSock: I am DESKTOP-40S7AG1 (192.168.1.34:0)
+[2018.07.14-06.42.43:503][754]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.14-06.42.43:503][754]LogNet: Game client on port 7777, rate 15000
+[2018.07.14-06.42.43:503][754]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 60.52.106.160:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.42.43:654][756]LogHandshake: SendChallengeResponse. Timestamp: 13684.631836, Cookie: 251222165050123006136230087165098115032070177180178134243110
+[2018.07.14-06.42.43:955][765]LogNet: NetConnection::Close() [PendingNetDriver] [NoPC] [No Owner] from NMT_Failure ServerPasswordNotValid
+[2018.07.14-06.42.43:955][765]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 60.52.106.160:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, Channels: 1, Time: 2018.07.14-06.42.43
+[2018.07.14-06.42.43:955][765]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 60.52.106.160:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.42.43:955][765]LogNet:Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: ServerPasswordNotValid
+[2018.07.14-06.42.43:956][765]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'ServerPasswordNotValid'
+[2018.07.14-06.42.43:959][765]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [PendingNetDriver]
+[2018.07.14-06.42.43:973][765]LogExit: PendingNetDriver SteamNetDriver_0 shut down
+[2018.07.14-06.42.45:154][801]UnitTest:Display: ClientState: 1
+[2018.07.14-06.42.45:155][801]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2018.07.14-06.42.45:161][801]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(2091): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2018.07.14-06.42.45:162][801]GUI:Display: C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(1929): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", false)
+[2018.07.14-06.42.45:189][803]LogOnline:Warning: Async task 'FOnlineAsyncTaskSteamGetAchievements bWasSuccessful: 0 UserId: Nuit Chicken Run V2 [0x1100001078CE464]' failed in 0.010229 seconds
+[2018.07.14-06.42.46:223][833]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.42.46:223][833]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.42.46:223][833]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.42.46:223][833]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.42.46:242][833]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2018.07.14-06.42.47:289][865]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.42.50:058][949]LogOnline:Warning: STEAM: Rules failed to respond for server
+[2018.07.14-06.42.53:094][ 40]LogOnline:Warning: STEAM: Failed to respond IP:70.186.105.131
+[2018.07.14-06.42.53:094][ 40]LogOnline:Warning: STEAM: Failed to respond IP:160.226.230.207
+[2018.07.14-06.42.53:460][ 51]LogOnline:Warning: STEAM: Failed to respond IP:88.102.230.94
+[2018.07.14-06.42.53:493][ 52]LogOnline:Warning: STEAM: Failed to respond IP:109.106.143.224
+[2018.07.14-06.42.53:561][ 54]LogOnline:Warning: STEAM: Failed to respond IP:37.110.159.115
+[2018.07.14-06.42.53:561][ 54]LogOnline:Warning: STEAM: Failed to respond IP:77.238.154.91
+[2018.07.14-06.42.53:561][ 54]LogOnline:Warning: STEAM: Failed to respond IP:106.73.141.224
+[2018.07.14-06.42.53:561][ 54]LogOnline:Warning: STEAM: Failed to respond IP:113.95.191.3
+[2018.07.14-06.44.05:102][200]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.44.05:131][200]ConanSandbox:Warning: Created messagebox. Type:8. Title:Join Game.. Mesage:Attempting to join game.. Buttons:3. 
+[2018.07.14-06.44.05:131][200]ConanGameInstanceLog:Display: UConanGameInstance::JoinSession
+[2018.07.14-06.44.05:666][214]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.44.05:666][214]ConanSandbox:Display: Joined online session ID: 109775245039900153
+[2018.07.14-06.44.06:192][225]LogNet: Browse: steam.76561198030074376//Game/Maps/Startup?SteamAuthTicket=1400000073825B39E5595B9964E48C07010010012196495B180000000100000002000000431C7A7C2201A8C047F4150004000000B2000000320000000400000064E48C0701001001E001000062275A3D9E234319000000004CBD465BCC6C625B01000000000000000000D42A2E215379B3276ACD9A4D546325A6895E09A76478DBD6EFDCE442387AA827C111953D1940459102B09642C912A201DABEFDE68089475AB9FEF3CFC92F63F656428035AEE3DA8E2AF5A1057DB455C6CB8AA2FF20F80854B569DF63A1DC9F0D169EB8A831C80525F01117EC574825E77011E4CCAB4DB35851EF49EB27385385?Password=?bIsFromInvite?Ping=56
+[2018.07.14-06.44.06:192][225]LogNet:Display: SteamNetDriver_1 bound to port 7777
+[2018.07.14-06.44.06:192][225]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.14-06.44.06:192][225]LogNet: Game client on port 7777, rate 15000
+[2018.07.14-06.44.06:192][225]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.44.21:250][675]Network:Warning: Code: VoiceChatCharacterDataSteam::OnP2PSessionConnectFail
+[2018.07.14-06.44.21:251][675]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, Channels: 1, Time: 2018.07.14-06.44.21
+[2018.07.14-06.44.21:251][675]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.44.21:279][675]LogNet:Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: ConnectionFailed
+[2018.07.14-06.44.21:279][675]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'ConnectionFailed'
+[2018.07.14-06.44.21:282][675]LogNet: DestroyNamedNetDriver SteamNetDriver_1 [PendingNetDriver]
+[2018.07.14-06.44.21:282][675]LogExit: PendingNetDriver SteamNetDriver_1 shut down
+[2018.07.14-06.44.33:885][ 54]Network:Warning: Code: VoiceChatCharacterDataSteam::OnP2PSessionRequest
+[2018.07.14-06.45.04:159][962]ConanUserPrivilege:Display: FOnQueryUserPrivilegeComplete::PrivilegeResult? 76561198086939748 : 0
+[2018.07.14-06.45.04:185][962]ConanSandbox:Warning: Message ID 8 not shown:Message already in message stack.
+[2018.07.14-06.45.04:185][962]ConanGameInstanceLog:Display: UConanGameInstance::JoinSession
+[2018.07.14-06.45.04:725][976]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.45.04:725][976]ConanSandbox:Display: Joined online session ID: 109775245039900153
+[2018.07.14-06.45.05:214][986]LogNet: Browse: steam.76561198030074376//Game/Maps/Startup?SteamAuthTicket=14000000BFBEC676F9C21BF864E48C07010010012196495B180000000100000002000000431C7A7C2201A8C0D5DA160006000000B2000000320000000400000064E48C0701001001E001000062275A3D9E234319000000004CBD465BCC6C625B01000000000000000000D42A2E215379B3276ACD9A4D546325A6895E09A76478DBD6EFDCE442387AA827C111953D1940459102B09642C912A201DABEFDE68089475AB9FEF3CFC92F63F656428035AEE3DA8E2AF5A1057DB455C6CB8AA2FF20F80854B569DF63A1DC9F0D169EB8A831C80525F01117EC574825E77011E4CCAB4DB35851EF49EB27385385?Password=?bIsFromInvite?Ping=56
+[2018.07.14-06.45.05:214][986]LogNet:Display: SteamNetDriver_2 bound to port 7777
+[2018.07.14-06.45.05:214][986]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.14-06.45.05:214][986]LogNet: Game client on port 7777, rate 15000
+[2018.07.14-06.45.05:215][986]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_2, Driver: PendingNetDriver SteamNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.45.07:189][ 40]LogSlate: Request Window 'ConanSandbox (64-bit, PCD3D_SM5)' being destroyed
+[2018.07.14-06.45.07:196][ 40]LogSlate: Window 'ConanSandbox (64-bit, PCD3D_SM5)' being destroyed
+[2018.07.14-06.45.07:198][ 40]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.07.14-06.45.07:202][ 40]LogSlate: HittestGrid destroyed
+[2018.07.14-06.45.07:206][ 40]LogOnline:Warning: STEAM: Can't cancel a search that isn't in progress
+[2018.07.14-06.45.07:214][ 40]LogEngine: All Windows Closed
+[2018.07.14-06.45.07:214][ 40]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.07.14-06.45.07:473][ 41]LogStreaming:Display: Suspending async loading (1)
+[2018.07.14-06.45.07:477][ 41]LogStreaming:Display: Resuming async loading (0)
+[2018.07.14-06.45.07:481][ 41]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_2, Driver: PendingNetDriver SteamNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, Channels: 1, Time: 2018.07.14-06.45.07
+[2018.07.14-06.45.07:481][ 41]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198030074376:7777, Name: SteamNetConnection_2, Driver: PendingNetDriver SteamNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL
+[2018.07.14-06.45.07:481][ 41]LogNet: DestroyNamedNetDriver SteamNetDriver_2 [PendingNetDriver]
+[2018.07.14-06.45.07:481][ 41]LogExit: PendingNetDriver SteamNetDriver_2 shut down
+[2018.07.14-06.45.07:523][ 41]LogExit: Preparing to exit.
+[2018.07.14-06.45.07:523][ 41]LogMoviePlayer: Shutting down movie player
+[2018.07.14-06.45.07:529][ 41]LogSlate: HittestGrid destroyed
+[2018.07.14-06.45.07:534][ 41]LogSlate: HittestGrid destroyed
+[2018.07.14-06.45.07:626][ 41]LogCameraPhotography: Photography camera destroyed.  Provider=NVIDIA Ansel, Supported=1
+[2018.07.14-06.45.07:759][ 41]LogExit: Game engine shut down
+[2018.07.14-06.45.08:350][ 41]LogStreaming:Display: Suspending async loading (1)
+[2018.07.14-06.45.08:403][ 41]LogStreaming:Display: Resuming async loading (0)
+[2018.07.14-06.45.08:491][ 41]LogExit: Object subsystem successfully closed.
+[2018.07.14-06.45.08:676][ 41]LogD3D11RHI: Shutdown
+[2018.07.14-06.45.08:676][ 41]LogD3D11RHI: CleanupD3DDevice
+[2018.07.14-06.45.09:034][ 41]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module AutomationWorker (149)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (145)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module MfMediaFactory (143)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (141)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (139)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module Media (138)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module CharacterAI (135)
+[2018.07.14-06.45.09:035][ 41]LogModuleManager: Shutting down and abandoning module SessionServices (133)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module GeometryCache (131)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Niagara (129)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (127)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module RconPlugin (125)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Ansel (121)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (119)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module ExternalDirectory (111)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Rejoin (109)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Hotfix (107)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Lobby (105)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Party (103)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Qos (101)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module HTML5Networking (99)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module ConanSandbox (97)
+[2018.07.14-06.45.09:041][ 41]LogMemory:Display: Entered application state 'ConanSandboxStopped'.
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module DialoguePlugin (94)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module PhysXVehicles (92)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (90)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module CableComponent (88)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module TcpMessaging (84)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module FacialAnimation (82)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2018.07.14-06.45.09:041][ 41]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (76)
+[2018.07.14-06.45.09:044][ 41]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2018.07.14-06.45.09:047][ 41]LogModuleManager: Shutting down and abandoning module MfMedia (72)
+[2018.07.14-06.45.09:047][ 41]LogModuleManager: Shutting down and abandoning module MediaAssets (70)
+[2018.07.14-06.45.09:047][ 41]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (68)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module UMG (66)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module SlateReflector (64)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module Slate (62)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module Messaging (60)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (58)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module XAudio2 (56)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module Networking (54)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module Core (52)
+[2018.07.14-06.45.09:048][ 41]LogModuleManager: Shutting down and abandoning module UE4Dreamworld (50)
+[2018.07.14-06.45.09:052][ 41]LogModuleManager: Shutting down and abandoning module AssetRegistry (48)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module InputCore (44)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module DreamworldMods (42)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module DreamworldPreInit (40)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (38)
+[2018.07.14-06.45.09:120][ 41]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
+[2018.07.14-06.45.09:120][ 41]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.07.14-06.45.09:175][ 41]LogOnline:Display: Unloading online subsystem: Steam
+[2018.07.14-06.45.09:175][ 41]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.07.14-06.45.09:176][ 41]LogOnline:Display: Unloading online subsystem: NULL
+[2018.07.14-06.45.09:176][ 41]LogModuleManager: Shutting down and abandoning module HTTP (29)
+[2018.07.14-06.45.09:198][ 41]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.07.14-06.45.09:198][ 41]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.07.14-06.45.09:198][ 41]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.14-06.45.09:200][ 41]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.14-06.45.09:200][ 41]LogMoviePlayer: Shutting down movie player
+[2018.07.14-06.45.09:201][ 41]LogExit: Exiting.
+[2018.07.14-06.45.09:205][ 41]Log file closed, 07/14/18 13:45:09

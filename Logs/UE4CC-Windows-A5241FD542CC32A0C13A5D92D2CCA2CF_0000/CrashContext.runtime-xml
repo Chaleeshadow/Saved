@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-A5241FD542CC32A0C13A5D92D2CCA2CF_0000</CrashGUID>
+<ProcessId>9572</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>9649</SecondsSinceStart>
+<GameName>UE4-ConanSandbox</GameName>
+<ExecutableName>ConanSandbox</ExecutableName>
+<BuildConfiguration>Test</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.15.3-98206+ue415-dw-Stable-osl</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<BuildVersion>ue415-dw-Stable-osl-CL-98206</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/ConanSandbox/Binaries/Win64/</BaseDir>
+<RootDir>D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/</RootDir>
+<MachineId>BFB23D9B4B7B60A4C6F492AD966946FC</MachineId>
+<LoginId>bfb23d9b4b7b60a4c6f492ad966946fc</LoginId>
+<EpicAccountId></EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Fatal error: [File:C:\UE4\CSAND\Engine\Source\Runtime\CoreUObject\Private\Serialization\AsyncLoading.cpp] [Line: 6615] &#10;LoadPackageAsync failed to begin to load a package because the supplied package name was neither a valid long package name nor a filename of a map within a content folder: &apos;&apos;&#10;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>       Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 4000</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8444809216</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>3116191744</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140706026622976</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1776365568</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>2458005504</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>4464844800</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>4476096512</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<FuncomExtraData>{&quot;Version&quot;:1,&quot;TickInfoSched&quot;:&quot;SCHEDULECOOLDOWN&quot;,&quot;Configuration&quot;:&quot;ConanSandbox.Client.VS2015.Live.Win64&quot;,&quot;Branch&quot;:&quot;ConanSandbox_Stable&quot;,&quot;ProjectCode&quot;:&quot;CSAND&quot;,&quot;Platform&quot;:&quot;x64&quot;,&quot;Revision&quot;:98222,&quot;Snapshot&quot;:17925,&quot;QFE&quot;:0,&quot;BrowseURL&quot;:&quot;25.49.160.70:7777&quot;,&quot;FGenericPlatformMemory::bIsOOM&quot;:false,&quot;FlowControl&quot;:[[&quot;2018-07-13T18:51:38.010Z&quot;,&quot;Playing&quot;],[&quot;2018-07-13T18:51:36.092Z&quot;,&quot;LoadingScreen&quot;],[&quot;2018-07-13T18:47:58.666Z&quot;,&quot;Playing&quot;],[&quot;2018-07-13T18:47:48.930Z&quot;,&quot;LoadingScreen&quot;],[&quot;2018-07-13T18:40:34.561Z&quot;,&quot;Playing&quot;],[&quot;2018-07-13T18:40:32.518Z&quot;,&quot;LoadingScreen&quot;],[&quot;2018-07-13T18:36:08.947Z&quot;,&quot;Playing&quot;],[&quot;2018-07-13T18:35:19.911Z&quot;,&quot;LoadingScreen&quot;],[&quot;2018-07-13T18:35:11.552Z&quot;,&quot;MainMenu&quot;],[&quot;2018-07-13T18:35:07.681Z&quot;,&quot;LoadingScreen&quot;]],&quot;PlayerPosition&quot;:[[&quot;2018-07-13T19:22:20.180Z&quot;,102775.218750,106590.718750,-12255.823242,0.000000,-109.407494,0.000000],[&quot;2018-07-13T19:21:50.178Z&quot;,102155.601563,106826.437500,-12371.734375,0.000000,84.135246,0.000000],[&quot;2018-07-13T19:21:20.172Z&quot;,102531.359375,107901.195313,-12354.769531,0.000000,-41.145359,0.000000],[&quot;2018-07-13T19:20:50.164Z&quot;,99338.601563,108971.757813,-12166.768555,0.000000,2.598267,0.000000],[&quot;2018-07-13T19:20:20.159Z&quot;,100451.070313,110156.812500,-12173.554688,0.000000,124.746155,0.000000],[&quot;2018-07-13T19:19:50.148Z&quot;,100721.960938,116106.828125,-13339.638672,0.000000,-79.271103,0.000000],[&quot;2018-07-13T19:19:20.119Z&quot;,100314.992188,120268.882813,-13442.481445,0.000000,-96.062500,0.000000],[&quot;2018-07-13T19:18:50.111Z&quot;,96725.007813,120151.554688,-13346.315430,0.000000,-129.403534,0.000000],[&quot;2018-07-13T19:18:20.090Z&quot;,87743.960938,124180.796875,-13068.366211,-24.712402,-65.753593,-1.807983],[&quot;2018-07-13T19:17:50.068Z&quot;,86883.851563,123907.726563,-13194.968750,0.000000,92.442642,0.000000]],&quot;AvailableMemory&quot;:[[&quot;2018-07-13T19:22:25.373Z&quot;,2971.828125],[&quot;2018-07-13T19:21:55.351Z&quot;,2979.933594],[&quot;2018-07-13T19:21:25.291Z&quot;,3022.660156],[&quot;2018-07-13T19:20:55.267Z&quot;,3038.289063],[&quot;2018-07-13T19:20:25.236Z&quot;,3054.136719],[&quot;2018-07-13T19:19:55.209Z&quot;,3048.375000],[&quot;2018-07-13T19:19:25.183Z&quot;,3009.894531],[&quot;2018-07-13T19:18:55.164Z&quot;,3014.480469],[&quot;2018-07-13T19:18:25.137Z&quot;,3040.289063],[&quot;2018-07-13T19:17:55.123Z&quot;,3021.257813]],&quot;FrameTime&quot;:[[&quot;2018-07-13T19:22:25.807Z&quot;,24,41,33],[&quot;2018-07-13T19:22:20.804Z&quot;,24,46,33],[&quot;2018-07-13T19:22:15.795Z&quot;,24,166,35],[&quot;2018-07-13T19:22:10.693Z&quot;,24,42,33],[&quot;2018-07-13T19:22:05.691Z&quot;,25,40,33],[&quot;2018-07-13T19:22:00.659Z&quot;,21,62,33],[&quot;2018-07-13T19:21:55.641Z&quot;,22,174,35],[&quot;2018-07-13T19:21:50.627Z&quot;,25,167,34],[&quot;2018-07-13T19:21:45.623Z&quot;,26,39,33],[&quot;2018-07-13T19:21:40.620Z&quot;,19,77,33],[&quot;2018-07-13T19:21:35.598Z&quot;,22,52,33],[&quot;2018-07-13T19:21:30.592Z&quot;,25,41,33],[&quot;2018-07-13T19:21:25.591Z&quot;,22,173,35],[&quot;2018-07-13T19:21:20.588Z&quot;,17,50,33],[&quot;2018-07-13T19:21:15.557Z&quot;,17,45,33],[&quot;2018-07-13T19:21:10.550Z&quot;,22,173,34],[&quot;2018-07-13T19:21:05.550Z&quot;,25,42,33],[&quot;2018-07-13T19:21:00.543Z&quot;,23,43,33],[&quot;2018-07-13T19:20:55.534Z&quot;,19,161,35],[&quot;2018-07-13T19:20:50.517Z&quot;,17,162,35]],&quot;InstallProgress&quot;:[[&quot;2018-07-13T16:42:07.328Z&quot;,99],[&quot;2018-07-13T16:42:07.295Z&quot;,98],[&quot;2018-07-13T16:42:07.262Z&quot;,97],[&quot;2018-07-13T16:42:07.238Z&quot;,96],[&quot;2018-07-13T16:42:07.195Z&quot;,95],[&quot;2018-07-13T16:42:07.162Z&quot;,94],[&quot;2018-07-13T16:42:07.129Z&quot;,93],[&quot;2018-07-13T16:42:07.094Z&quot;,92],[&quot;2018-07-13T16:42:07.062Z&quot;,91],[&quot;2018-07-13T16:42:07.028Z&quot;,90]]}</FuncomExtraData>
+</PlatformProperties>
+</FGenericCrashContext>

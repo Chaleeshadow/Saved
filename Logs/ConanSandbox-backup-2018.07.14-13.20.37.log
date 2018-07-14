@@ -1,0 +1,94 @@
+﻿Log file open, 07/14/18 13:19:36
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogOnline:Warning: STEAM: Steam SDK 1.38a libraries not present at ../../../Engine/Binaries/ThirdParty/Steamworks/Steamv138a/Win64/ or failed to load!
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-98206.0
+LogInit: Engine Version: 4.15.3-98206+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-98206+ue415-dw-Stable-osl
+LogInit: Net CL: 98206
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 24 2018 17:27:21
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: 
+LogInit: Base directory: D:/Games/New folder/Conan.Exiles.Build.17925/Conan.Exiles.Build.17925/Conan.Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.07.14-06.19.36:957][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.14-06.19.36:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.14-06.19.37:026][  0]LogInit: Computer: DESKTOP-40S7AG1
+[2018.07.14-06.19.37:026][  0]LogInit: User: Beware
+[2018.07.14-06.19.37:026][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.07.14-06.19.37:026][  0]LogInit: High frequency timer resolution =2.533320 MHz
+[2018.07.14-06.19.37:026][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.14-06.19.37:026][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.14-06.19.37:026][  0]LogMemory: Process Physical Memory: 456.05 MB used, 456.05 MB peak
+[2018.07.14-06.19.37:026][  0]LogMemory: Process Virtual Memory: 482.00 MB used, 482.00 MB peak
+[2018.07.14-06.19.37:026][  0]LogMemory: Physical Memory: 2712.77 MB used,  5340.82 MB free, 8053.60 MB total
+[2018.07.14-06.19.37:026][  0]LogMemory: Virtual Memory: 4986.58 MB used,  5340.82 MB free, 134217728.00 MB total
+[2018.07.14-06.19.37:281][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.07.14-06.19.37:593][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.14-06.19.38:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2018.07.14-06.19.38:271][  0]LogD3D11RHI:       2009/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.14-06.19.38:278][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.07.14-06.19.38:278][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.14-06.19.38:283][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.14-06.19.38:283][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.14-06.19.38:283][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.14-06.19.38:295][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.14-06.19.38:296][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.14-06.19.38:296][  0]LogWindows: EnumDisplayDevices:
+[2018.07.14-06.19.38:296][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.07.14-06.19.38:297][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.14-06.19.38:297][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.07.14-06.19.38:297][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.14-06.19.38:297][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2018.07.14-06.19.38:297][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.14-06.19.38:297][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.14-06.19.38:297][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.14-06.19.38:441][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.07.14-06.19.38:444][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.14-06.19.38:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.14-06.19.38:574][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.14-06.19.38:575][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-06.19.38:575][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-06.19.39:175][  0]LogAssetRegistry: FAssetRegistry took 0.5229 seconds to start up
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld revision: 98222
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld snapshot: 17925
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.07.14-06.19.39:347][  0]Dreamworld:Display: Platform: WindowsNoEditor
+[2018.07.14-06.19.39:348][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.07.14-06.19.39:370][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.008660 seconds
+[2018.07.14-06.19.39:373][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.14-06.19.39:374][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.07.14-06.19.39:489][  0]LogContentStreaming: Texture pool size is 500.00 MB
+[2018.07.14-06.19.39:538][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.07.14-06.19.39:619][  0]LogNetVersion: GetLocalNetworkVersion: CL: 98206, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3346072323
+[2018.07.14-06.19.39:619][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 804636165
+[2018.07.14-06.19.39:655][  0]LogMoviePlayer: Initializing movie player
+[2018.07.14-06.19.39:974][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.

@@ -1,0 +1,1 @@
+Minidump write completed successfully, GetLastError() = 0x00000000, cancelled = no.
